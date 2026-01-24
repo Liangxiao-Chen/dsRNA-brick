@@ -7,7 +7,7 @@ For N = 9 (our standard KL length), the pipeline is:
 1. `generate_pool_nnt.py` ([Download link](https://www.dropbox.com/scl/fi/0xktm97phin3rtkx8ouf0/generate_pool_nnt.py?rlkey=8skbtq0iathk69ybi80q0tybd&dl=0))
    Generate a **raw** pool of “good” 9‑nt sequences with nice local properties
    → `RNAPool_9nt.txt`
-2. `build_rna_conflict_graphV2.py` ([Download link](Orthogonal_sequence_selection/build_rna_conflict_graphV2.py))
+2. `build_rna_conflict_graphV2.py` ([Download link](dsRNA-brick/Orthogonal_sequence_selection/build_rna_conflict_graphV2.py))
    Remove self‑complementary / guide‑complementary sequences and build a **conflict graph** that records which sequences are too complementary to each other
    → `FilteredPool_9nt_out.txt` + `ConflictGraph_9nt_edges_out.txt`
 3. `select_from_conflict_graph.py` ([Download link](https://www.dropbox.com/scl/fi/meeqmmzmhzl5t8m1jdzp5/select_from_conflict_graph.py?rlkey=onfc1v6x1j3q5m72xn1b8w5q4&dl=0))
