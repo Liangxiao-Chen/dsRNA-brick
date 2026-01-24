@@ -101,7 +101,7 @@ The tool will export **three files** (example: 9 × 12 lattice with 108 selected
 
 ---
 
-## Repository layout (recommended)
+## Repository layout
 
 - `Orthogonal_sequence_selection/`  
   Scripts and outputs for KL pool generation and orthogonal selection.
