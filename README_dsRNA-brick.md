@@ -1,6 +1,5 @@
 # Orthogonal (b)KL sequence selection
 
-> Source: Evernote export (cleaned for GitHub Markdown)
 
 ## Big picture: what the three scripts do
 
