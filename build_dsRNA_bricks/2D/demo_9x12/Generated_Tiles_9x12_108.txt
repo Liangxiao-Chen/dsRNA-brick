@@ -1,0 +1,433 @@
+/Users/wyssuser/HMS Dropbox/Liangxiao Chen/ASU/dsRNA_brick/code/python/SelectedPool_from_graph_out.txt
+
+*******TILE0*******
+GNNNNNGNNNNNNN A 3375 NNNNNNNNN GUAA NNNNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 4533 NNNNNNNNN UUCG NNNNNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... ((((((((( .... ))))))))) . )))))))))))))) ((((((((((( . .... ((((((((( .... ))))))))) . )))))))))))
+
+*******TILE1*******
+CNNNNNGNNNNNNN A 3573 NNNNNUNNNNNUNNNNNG AAA 9671 CNNNNNGNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 4701 NNNNNNNUNNNNNNNGNNNNNNUNNNNNNNGNNNNNNNGNNNNNNG AAA 3354 CNNNNNNUNNNNNNNUNNNNNNNGNNNNNNUNNNNNNNGNNNNNNN A NNNNNUNNNNG
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((((((((((((((((((((((((((((((( ... .... )))))))))))))))))))))))))))))))))))))))))))))) . )))))))))))
+
+*******TILE2*******
+GNNNNNGNNNNNNN A 1081 NNNNNGNNNNNGNNNNNG AAA 683 CNNNNNUNNNNNUNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 4827 NNNNNNNUNNNNNNNUNNNNNNUNNNNNNNGNNNNNNNUNNNNNNG AAA 1074 CNNNNNNGNNNNNNNUNNNNNNNGNNNNNNGNNNNNNNGNNNNNNN A NNNNNGNNNNC
+(((((((((((((( . .... (((((((((((((((((( ... ... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((((((((((((((((((((((((((((((( ... .... )))))))))))))))))))))))))))))))))))))))))))))) . )))))))))))
+
+*******TILE3*******
+CNNNNNGNNNNNNN A 961 NNNNNUNNNNNUNNNNNG AAA 5032 CNNNNNGNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 7846 NNNNNNNGNNNNNNNGNNNNNNUNNNNNNNGNNNNNNNUNNNNNNG AAA 7284 CNNNNNNGNNNNNNNUNNNNNNNGNNNNNNUNNNNNNNUNNNNNNN A NNNNNGNNNNG
+(((((((((((((( . ... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((((((((((((((((((((((((((((((( ... .... )))))))))))))))))))))))))))))))))))))))))))))) . )))))))))))
+
+*******TILE4*******
+GNNNNNUNNNNNNN A 3062 NNNNNUNNNNNGNNNNNG AAA 0308 CNNNNNUNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 3119 NNNNNNNUNNNNNNNGNNNNNNGNNNNNNNUNNNNNNNUNNNNNNG AAA 6487 CNNNNNNGNNNNNNNGNNNNNNNUNNNNNNUNNNNNNNGNNNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((((((((((((((((((((((((((((((( ... .... )))))))))))))))))))))))))))))))))))))))))))))) . )))))))))))
+
+*******TILE5*******
+CNNNNNUNNNNNNN A 5660 NNNNNUNNNNNGNNNNNG AAA 3411 CNNNNNUNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 2676 NNNNNNNUNNNNNNNUNNNNNNGNNNNNNNUNNNNNNNGNNNNNNG AAA 9113 CNNNNNNUNNNNNNNGNNNNNNNUNNNNNNGNNNNNNNGNNNNNNN A NNNNNUNNNNG
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((((((((((((((((((((((((((((((( ... .... )))))))))))))))))))))))))))))))))))))))))))))) . )))))))))))
+
+*******TILE6*******
+GNNNNNUNNNNNNN A 1382 NNNNNUNNNNNUNNNNNG AAA 6554 CNNNNNGNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 6049 NNNNNNNUNNNNNNNUNNNNNNUNNNNNNNGNNNNNNNGNNNNNNG AAA 6762 CNNNNNNUNNNNNNNUNNNNNNNGNNNNNNGNNNNNNNGNNNNNNN A NNNNNGNNNNC
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((((((((((((((((((((((((((((((( ... .... )))))))))))))))))))))))))))))))))))))))))))))) . )))))))))))
+
+*******TILE7*******
+CNNNNNGNNNNNNN A 6549 NNNNNGNNNNNGNNNNNG AAA 8606 CNNNNNUNNNNNUNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 7223 NNNNNNNUNNNNNNNGNNNNNNUNNNNNNNUNNNNNNNGNNNNNNG AAA 9406 CNNNNNNUNNNNNNNGNNNNNNNGNNNNNNUNNNNNNNGNNNNNNN A NNNNNGNNNNG
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((((((((((((((((((((((((((((((( ... .... )))))))))))))))))))))))))))))))))))))))))))))) . )))))))))))
+
+*******TILE8*******
+GNNNNNGNNNNNNN A 5362 NNNNNGNNNNNGNNNNNG AAA 6334 CNNNNNUNNNNNUNNNNN A NNNNNNNUNNNNNN NNNNNNUNNNNN AAUAAUA NNNNNNNUNNNNNNNUNNNNNNGNNNNNNNUNNNNNNNUNNNNNNG AAA 3227 CNNNNNNGNNNNNNNGNNNNNNNUNNNNNNGNNNNNNNGNNNNNNN NNNNNGNNNNNC
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) (((((((((((( ....... (((((((((((((((((((((((((((((((((((((((((((((( ... .... )))))))))))))))))))))))))))))))))))))))))))))) ))))))))))))
+
+*******TILE9*******
+CNNNNNGNNNNNNN A 5029 NNNNNNGNNNNNGNNNNNG AAA 9795 CNNNNNUNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 1769 NNNNNNGNNNNNGNNNNNG AAA 5733 CNNNNNUNNNNNUNNNNNN A NNNNNUNNNNG
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE10*******
+GNNNNNGNNNNNNN A 2036 NNNNNNUNNNNNUNNNNNG AAA 367 CNNNNNGNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 386 NNNNNNGNNNNNGNNNNNG AAA 3753 CNNNNNUNNNNNUNNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... ((((((((((((((((((( ... ... ))))))))))))))))))) . )))))))))))))) ((((((((((( . ... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE11*******
+CNNNNNUNNNNNNN A 2852 NNNNNNUNNNNNUNNNNNG AAA 5015 CNNNNNGNNNNNGNNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 2305 NNNNNNGNNNNNGNNNNNG AAA 1801 CNNNNNUNNNNNUNNNNNN A NNNNNGNNNNG
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE12*******
+GNNNNNUNNNNNNN A 85 NNNNNNGNNNNNUNNNNNG AAA 5621 CNNNNNGNNNNNUNNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 8030 NNNNNNGNNNNNGNNNNNG AAA 169 CNNNNNUNNNNNUNNNNNN A NNNNNUNNNNC
+(((((((((((((( . .. ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... ... ))))))))))))))))))) . )))))))))))
+
+*******TILE13*******
+CNNNNNGNNNNNNN A 6100 NNNNNNUNNNNNGNNNNNG AAA 1843 CNNNNNUNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 1143 NNNNNNGNNNNNUNNNNNG AAA 2603 CNNNNNGNNNNNUNNNNNN A NNNNNUNNNNG
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE14*******
+GNNNNNGNNNNNNN A 4471 NNNNNNUNNNNNGNNNNNG AAA 49 CNNNNNUNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 4556 NNNNNNGNNNNNGNNNNNG AAA 0665 CNNNNNUNNNNNUNNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... ((((((((((((((((((( ... .. ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE15*******
+CNNNNNGNNNNNNN A 4894 NNNNNNGNNNNNGNNNNNG AAA 2613 CNNNNNUNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 6068 NNNNNNGNNNNNUNNNNNG AAA 2831 CNNNNNGNNNNNUNNNNNN A NNNNNGNNNNG
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE16*******
+GNNNNNUNNNNNNN A 7183 NNNNNNUNNNNNGNNNNNG AAA 5482 CNNNNNUNNNNNGNNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 4336 NNNNNNGNNNNNGNNNNNG AAA 9456 CNNNNNUNNNNNUNNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE17*******
+CNNNNNNGNNNNNNN AAAUAAA NNNNNNUNNNNNUNNNNNG AAA 7108 CNNNNNGNNNNNGNNNNNN NNNNNNNUNNNNNNN NNNNNNGNNNNN AAUAAUA NNNNNNGNNNNNUNNNNNG AAA 2635 CNNNNNGNNNNNUNNNNNN NNNNNUNNNNNG
+((((((((((((((( ....... ((((((((((((((((((( ... .... ))))))))))))))))))) ))))))))))))))) (((((((((((( ....... ((((((((((((((((((( ... .... ))))))))))))))))))) ))))))))))))
+
+*******TILE18*******
+GNNNNNUNNNNNNN A 6498 NNNNNNNNN GUAA NNNNNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 5979 NNNNNNNNN UUCG NNNNNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... ((((((((( .... ))))))))) . )))))))))))))) ((((((((((( . .... ((((((((( .... ))))))))) . )))))))))))
+
+*******TILE19*******
+CNNNNNGNNNNNNN A 6021 NNNNNGNNNNNGNNNNNG AAA 8453 CNNNNNUNNNNNUNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 763 NNNNNUNNNNNUNNNNNG AAA 9205 CNNNNNGNNNNNGNNNNN A NNNNNGNNNNG
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . ... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE20*******
+GNNNNNUNNNNNNN A 64 NNNNNUNNNNNUNNNNNG AAA 676 CNNNNNGNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 5105 NNNNNUNNNNNGNNNNNG AAA 6302 CNNNNNUNNNNNGNNNNN A NNNNNUNNNNC
+(((((((((((((( . .. (((((((((((((((((( ... ... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE21*******
+CNNNNNUNNNNNNN A 6577 NNNNNUNNNNNGNNNNNG AAA 4946 CNNNNNUNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 1265 NNNNNGNNNNNUNNNNNG AAA 2582 CNNNNNGNNNNNUNNNNN A NNNNNGNNNNG
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE22*******
+GNNNNNUNNNNNNN A 2015 NNNNNUNNNNNUNNNNNG AAA 6501 CNNNNNGNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 3481 NNNNNGNNNNNUNNNNNG AAA 58 CNNNNNGNNNNNUNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .. )))))))))))))))))) . )))))))))))
+
+*******TILE23*******
+CNNNNNUNNNNNNN A 1129 NNNNNUNNNNNUNNNNNG AAA 9095 CNNNNNGNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 94 NNNNNUNNNNNGNNNNNG AAA 0016 CNNNNNUNNNNNGNNNNN A NNNNNUNNNNG
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .. (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE24*******
+GNNNNNUNNNNNNN A 2089 NNNNNGNNNNNUNNNNNG AAA 4361 CNNNNNGNNNNNUNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 3162 NNNNNGNNNNNUNNNNNG AAA 1744 CNNNNNGNNNNNUNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE25*******
+CNNNNNGNNNNNNN A 2960 NNNNNGNNNNNUNNNNNG AAA 192 CNNNNNGNNNNNUNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 2845 NNNNNGNNNNNGNNNNNG AAA 4984 CNNNNNUNNNNNUNNNNN A NNNNNUNNNNG
+(((((((((((((( . .... (((((((((((((((((( ... ... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE26*******
+GNNNNNGNNNNNNN A 4470 NNNNNUNNNNNGNNNNNG AAA 942 CNNNNNUNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 8017 NNNNNUNNNNNUNNNNNG AAA 3817 CNNNNNGNNNNNGNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... (((((((((((((((((( ... ... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE27*******
+CNNNNNUNNNNNNN A 6357 NNNNNNUNNNNNGNNNNNG AAA 2092 CNNNNNUNNNNNGNNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 3548 NNNNNNUNNNNNGNNNNNG AAA 8946 CNNNNNUNNNNNGNNNNNN A NNNNNGNNNNG
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE28*******
+GNNNNNGNNNNNNN A 4107 NNNNNNUNNNNNGNNNNNG AAA 8211 CNNNNNUNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 676 NNNNNNUNNNNNUNNNNNG AAA 1206 CNNNNNGNNNNNGNNNNNN A NNNNNGNNNNC
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . ... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE29*******
+CNNNNNGNNNNNNN A 3665 NNNNNNUNNNNNUNNNNNG AAA 0912 CNNNNNGNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 6494 NNNNNNUNNNNNGNNNNNG AAA 46 CNNNNNUNNNNNGNNNNNN A NNNNNGNNNNG
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .. ))))))))))))))))))) . )))))))))))
+
+*******TILE30*******
+GNNNNNGNNNNNNN A 3187 NNNNNNUNNNNNUNNNNNG AAA 7351 CNNNNNGNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 1056 NNNNNNUNNNNNUNNNNNG AAA 7756 CNNNNNGNNNNNGNNNNNN A NNNNNGNNNNC
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE31*******
+CNNNNNGNNNNNNN A 6285 NNNNNNUNNNNNUNNNNNG AAA 8034 CNNNNNGNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 5909 NNNNNNUNNNNNUNNNNNG AAA 5102 CNNNNNGNNNNNGNNNNNN A NNNNNUNNNNG
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE32*******
+GNNNNNUNNNNNNN A 4768 NNNNNNUNNNNNUNNNNNG AAA 9185 CNNNNNGNNNNNGNNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 1634 NNNNNNUNNNNNUNNNNNG AAA 9211 CNNNNNGNNNNNGNNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE33*******
+CNNNNNGNNNNNNN A 7595 NNNNNNUNNNNNUNNNNNG AAA 6162 CNNNNNGNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 291 NNNNNNGNNNNNGNNNNNG AAA 9802 CNNNNNUNNNNNUNNNNNN A NNNNNGNNNNG
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . ... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE34*******
+GNNNNNGNNNNNNN A 3850 NNNNNNUNNNNNGNNNNNG AAA 7482 CNNNNNUNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 249 NNNNNNGNNNNNGNNNNNG AAA 0692 CNNNNNUNNNNNUNNNNNN A NNNNNGNNNNC
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . ... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE35*******
+CNNNNNNUNNNNNNN AAAUAAA NNNNNNUNNNNNGNNNNNG AAA 4336 CNNNNNUNNNNNGNNNNNN NNNNNNNGNNNNNNN NNNNNNGNNNNN AAUAAUA NNNNNNUNNNNNUNNNNNG AAA 0744 CNNNNNGNNNNNGNNNNNN NNNNNUNNNNNG
+((((((((((((((( ....... ((((((((((((((((((( ... .... ))))))))))))))))))) ))))))))))))))) (((((((((((( ....... ((((((((((((((((((( ... .... ))))))))))))))))))) ))))))))))))
+
+*******TILE36*******
+GNNNNNGNNNNNNN A 7086 NNNNNNNNN GUAA NNNNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 2902 NNNNNNNNN UUCG NNNNNNNNN A NNNNNGNNNNC
+(((((((((((((( . .... ((((((((( .... ))))))))) . )))))))))))))) ((((((((((( . .... ((((((((( .... ))))))))) . )))))))))))
+
+*******TILE37*******
+CNNNNNUNNNNNNN A 3008 NNNNNUNNNNNGNNNNNG AAA 9574 CNNNNNUNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 1128 NNNNNUNNNNNGNNNNNG AAA 7536 CNNNNNUNNNNNGNNNNN A NNNNNGNNNNG
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE38*******
+GNNNNNUNNNNNNN A 2906 NNNNNGNNNNNUNNNNNG AAA 6412 CNNNNNGNNNNNUNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 2190 NNNNNUNNNNNGNNNNNG AAA 7014 CNNNNNUNNNNNGNNNNN A NNNNNGNNNNC
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE39*******
+CNNNNNUNNNNNNN A 7267 NNNNNGNNNNNGNNNNNG AAA 6921 CNNNNNUNNNNNUNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 1537 NNNNNUNNNNNUNNNNNG AAA 5663 CNNNNNGNNNNNGNNNNN A NNNNNUNNNNG
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE40*******
+GNNNNNUNNNNNNN A 1556 NNNNNGNNNNNGNNNNNG AAA 0654 CNNNNNUNNNNNUNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 4308 NNNNNUNNNNNGNNNNNG AAA 7813 CNNNNNUNNNNNGNNNNN A NNNNNGNNNNC
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE41*******
+CNNNNNGNNNNNNN A 4613 NNNNNGNNNNNUNNNNNG AAA 7966 CNNNNNGNNNNNUNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 5819 NNNNNGNNNNNGNNNNNG AAA 5826 CNNNNNUNNNNNUNNNNN A NNNNNUNNNNG
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE42*******
+GNNNNNGNNNNNNN A 3274 NNNNNUNNNNNGNNNNNG AAA 1161 CNNNNNUNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 2616 NNNNNGNNNNNGNNNNNG AAA 8674 CNNNNNUNNNNNUNNNNN A NNNNNGNNNNC
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE43*******
+CNNNNNGNNNNNNN A 1206 NNNNNUNNNNNGNNNNNG AAA 9061 CNNNNNUNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 2847 NNNNNGNNNNNGNNNNNG AAA 5957 CNNNNNUNNNNNUNNNNN A NNNNNGNNNNG
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE44*******
+GNNNNNGNNNNNNN A 4075 NNNNNGNNNNNGNNNNNG AAA 8921 CNNNNNUNNNNNUNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 6334 NNNNNUNNNNNUNNNNNG AAA 0583 CNNNNNGNNNNNGNNNNN A NNNNNGNNNNC
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE45*******
+CNNNNNUNNNNNNN A 3040 NNNNNNUNNNNNUNNNNNG AAA 1972 CNNNNNGNNNNNGNNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 4759 NNNNNNGNNNNNUNNNNNG AAA 6807 CNNNNNGNNNNNUNNNNNN A NNNNNUNNNNG
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE46*******
+GNNNNNUNNNNNNN A 799 NNNNNNGNNNNNGNNNNNG AAA 65 CNNNNNUNNNNNUNNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 2146 NNNNNNGNNNNNGNNNNNG AAA 8003 CNNNNNUNNNNNUNNNNNN A NNNNNGNNNNC
+(((((((((((((( . ... ((((((((((((((((((( ... .. ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE47*******
+CNNNNNGNNNNNNN A 4723 NNNNNNUNNNNNGNNNNNG AAA 5812 CNNNNNUNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 1296 NNNNNNUNNNNNUNNNNNG AAA 6092 CNNNNNGNNNNNGNNNNNN A NNNNNUNNNNG
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE48*******
+GNNNNNGNNNNNNN A 3502 NNNNNNGNNNNNUNNNNNG AAA 4297 CNNNNNGNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 4560 NNNNNNUNNNNNUNNNNNG AAA 7627 CNNNNNGNNNNNGNNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE49*******
+CNNNNNGNNNNNNN A 3431 NNNNNNUNNNNNGNNNNNG AAA 4914 CNNNNNUNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 6697 NNNNNNGNNNNNGNNNNNG AAA 6551 CNNNNNUNNNNNUNNNNNN A NNNNNGNNNNG
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE50*******
+GNNNNNGNNNNNNN A 1308 NNNNNNGNNNNNGNNNNNG AAA 4483 CNNNNNUNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 1611 NNNNNNUNNNNNUNNNNNG AAA 3164 CNNNNNGNNNNNGNNNNNN A NNNNNGNNNNC
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE51*******
+CNNNNNGNNNNNNN A 7201 NNNNNNGNNNNNUNNNNNG AAA 961 CNNNNNGNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 1609 NNNNNNUNNNNNGNNNNNG AAA 4723 CNNNNNUNNNNNGNNNNNN A NNNNNUNNNNG
+(((((((((((((( . .... ((((((((((((((((((( ... ... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE52*******
+GNNNNNGNNNNNNN A 5328 NNNNNNGNNNNNGNNNNNG AAA 9344 CNNNNNUNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 1298 NNNNNNGNNNNNUNNNNNG AAA 6021 CNNNNNGNNNNNUNNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE53*******
+CNNNNNNUNNNNNNN AAAUAAA NNNNNNUNNNNNUNNNNNG AAA 8337 CNNNNNGNNNNNGNNNNNN NNNNNNNGNNNNNNN NNNNNNUNNNNN AAUAAUA NNNNNNUNNNNNGNNNNNG AAA 5704 CNNNNNUNNNNNGNNNNNN NNNNNGNNNNNG
+((((((((((((((( ....... ((((((((((((((((((( ... .... ))))))))))))))))))) ))))))))))))))) (((((((((((( ....... ((((((((((((((((((( ... .... ))))))))))))))))))) ))))))))))))
+
+*******TILE54*******
+GNNNNNGNNNNNNN A 1645 NNNNNNNNN GUAA NNNNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 2791 NNNNNNNNN UUCG NNNNNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... ((((((((( .... ))))))))) . )))))))))))))) ((((((((((( . .... ((((((((( .... ))))))))) . )))))))))))
+
+*******TILE55*******
+CNNNNNGNNNNNNN A 4571 NNNNNUNNNNNUNNNNNG AAA 0382 CNNNNNGNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 56 NNNNNUNNNNNGNNNNNG AAA 0403 CNNNNNUNNNNNGNNNNN A NNNNNGNNNNG
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .. (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE56*******
+GNNNNNGNNNNNNN A 2311 NNNNNGNNNNNGNNNNNG AAA 0586 CNNNNNUNNNNNUNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 2185 NNNNNGNNNNNUNNNNNG AAA 997 CNNNNNGNNNNNUNNNNN A NNNNNGNNNNC
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... ... )))))))))))))))))) . )))))))))))
+
+*******TILE57*******
+CNNNNNGNNNNNNN A 8033 NNNNNUNNNNNUNNNNNG AAA 8312 CNNNNNGNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 7924 NNNNNUNNNNNUNNNNNG AAA 3274 CNNNNNGNNNNNGNNNNN A NNNNNUNNNNG
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE58*******
+GNNNNNUNNNNNNN A 1929 NNNNNGNNNNNUNNNNNG AAA 3454 CNNNNNGNNNNNUNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 4194 NNNNNGNNNNNGNNNNNG AAA 2053 CNNNNNUNNNNNUNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE59*******
+CNNNNNGNNNNNNN A 3946 NNNNNUNNNNNGNNNNNG AAA 3232 CNNNNNUNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 3844 NNNNNGNNNNNUNNNNNG AAA 1343 CNNNNNGNNNNNUNNNNN A NNNNNUNNNNG
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE60*******
+GNNNNNUNNNNNNN A 5241 NNNNNUNNNNNGNNNNNG AAA 221 CNNNNNUNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 169 NNNNNGNNNNNUNNNNNG AAA 8031 CNNNNNGNNNNNUNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... (((((((((((((((((( ... ... )))))))))))))))))) . )))))))))))))) ((((((((((( . ... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE61*******
+CNNNNNUNNNNNNN A 6761 NNNNNGNNNNNGNNNNNG AAA 5393 CNNNNNUNNNNNUNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 4439 NNNNNGNNNNNGNNNNNG AAA 1027 CNNNNNUNNNNNUNNNNN A NNNNNUNNNNG
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE62*******
+GNNNNNGNNNNNNN A 2886 NNNNNUNNNNNGNNNNNG AAA 8974 CNNNNNUNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 7338 NNNNNGNNNNNUNNNNNG AAA 8235 CNNNNNGNNNNNUNNNNN A NNNNNGNNNNC
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE63*******
+CNNNNNGNNNNNNN A 6813 NNNNNNGNNNNNUNNNNNG AAA 7517 CNNNNNGNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 2830 NNNNNNUNNNNNGNNNNNG AAA 5461 CNNNNNUNNNNNGNNNNNN A NNNNNGNNNNG
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE64*******
+GNNNNNUNNNNNNN A 3609 NNNNNNUNNNNNUNNNNNG AAA 3013 CNNNNNGNNNNNGNNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 6850 NNNNNNGNNNNNGNNNNNG AAA 1754 CNNNNNUNNNNNUNNNNNN A NNNNNGNNNNC
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE65*******
+CNNNNNGNNNNNNN A 5621 NNNNNNUNNNNNUNNNNNG AAA 7245 CNNNNNGNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 2138 NNNNNNUNNNNNUNNNNNG AAA 1132 CNNNNNGNNNNNGNNNNNN A NNNNNGNNNNG
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE66*******
+GNNNNNGNNNNNNN A 6742 NNNNNNUNNNNNUNNNNNG AAA 2621 CNNNNNGNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 4543 NNNNNNUNNNNNUNNNNNG AAA 3308 CNNNNNGNNNNNGNNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE67*******
+CNNNNNUNNNNNNN A 6890 NNNNNNUNNNNNUNNNNNG AAA 9691 CNNNNNGNNNNNGNNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 2323 NNNNNNGNNNNNUNNNNNG AAA 9291 CNNNNNGNNNNNUNNNNNN A NNNNNUNNNNG
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE68*******
+GNNNNNGNNNNNNN A 4185 NNNNNNUNNNNNUNNNNNG AAA 6303 CNNNNNGNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 122 NNNNNNGNNNNNUNNNNNG AAA 6493 CNNNNNGNNNNNUNNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . ... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE69*******
+CNNNNNUNNNNNNN A 7552 NNNNNNUNNNNNGNNNNNG AAA 4891 CNNNNNUNNNNNGNNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 3935 NNNNNNGNNNNNUNNNNNG AAA 1425 CNNNNNGNNNNNUNNNNNN A NNNNNGNNNNG
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE70*******
+GNNNNNGNNNNNNN A 2703 NNNNNNUNNNNNUNNNNNG AAA 9427 CNNNNNGNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 4798 NNNNNNUNNNNNUNNNNNG AAA 1676 CNNNNNGNNNNNGNNNNNN A NNNNNGNNNNC
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE71*******
+CNNNNNNGNNNNNNN AAAUAAA NNNNNNGNNNNNUNNNNNG AAA 288 CNNNNNGNNNNNUNNNNNN NNNNNNNUNNNNNNN NNNNNNUNNNNN AAUAAUA NNNNNNUNNNNNUNNNNNG AAA 6882 CNNNNNGNNNNNGNNNNNN NNNNNGNNNNNG
+((((((((((((((( ....... ((((((((((((((((((( ... ... ))))))))))))))))))) ))))))))))))))) (((((((((((( ....... ((((((((((((((((((( ... .... ))))))))))))))))))) ))))))))))))
+
+*******TILE72*******
+GNNNNNGNNNNNNN A 579 NNNNNNNNN GUAA NNNNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 7157 NNNNNNNNN UUCG NNNNNNNNN A NNNNNUNNNNC
+(((((((((((((( . ... ((((((((( .... ))))))))) . )))))))))))))) ((((((((((( . .... ((((((((( .... ))))))))) . )))))))))))
+
+*******TILE73*******
+CNNNNNUNNNNNNN A 6350 NNNNNUNNNNNGNNNNNG AAA 2101 CNNNNNUNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 3103 NNNNNGNNNNNUNNNNNG AAA 3186 CNNNNNGNNNNNUNNNNN A NNNNNGNNNNG
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE74*******
+GNNNNNGNNNNNNN A 3135 NNNNNUNNNNNUNNNNNG AAA 9644 CNNNNNGNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 5427 NNNNNGNNNNNUNNNNNG AAA 9063 CNNNNNGNNNNNUNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE75*******
+CNNNNNGNNNNNNN A 6610 NNNNNUNNNNNUNNNNNG AAA 4261 CNNNNNGNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 1262 NNNNNUNNNNNUNNNNNG AAA 1265 CNNNNNGNNNNNGNNNNN A NNNNNUNNNNG
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE76*******
+GNNNNNUNNNNNNN A 6806 NNNNNGNNNNNGNNNNNG AAA 7531 CNNNNNUNNNNNUNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 1969 NNNNNUNNNNNUNNNNNG AAA 2476 CNNNNNGNNNNNGNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE77*******
+CNNNNNUNNNNNNN A 3949 NNNNNUNNNNNGNNNNNG AAA 984 CNNNNNUNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 3036 NNNNNGNNNNNGNNNNNG AAA 0986 CNNNNNUNNNNNUNNNNN A NNNNNUNNNNG
+(((((((((((((( . .... (((((((((((((((((( ... ... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE78*******
+GNNNNNUNNNNNNN A 5411 NNNNNGNNNNNUNNNNNG AAA 3566 CNNNNNGNNNNNUNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 1984 NNNNNGNNNNNGNNNNNG AAA 5814 CNNNNNUNNNNNUNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE79*******
+CNNNNNUNNNNNNN A 374 NNNNNUNNNNNUNNNNNG AAA 2916 CNNNNNGNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 7249 NNNNNGNNNNNGNNNNNG AAA 2557 CNNNNNUNNNNNUNNNNN A NNNNNUNNNNG
+(((((((((((((( . ... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE80*******
+GNNNNNUNNNNNNN A 416 NNNNNUNNNNNUNNNNNG AAA 2287 CNNNNNGNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 882 NNNNNGNNNNNUNNNNNG AAA 3072 CNNNNNGNNNNNUNNNNN A NNNNNGNNNNC
+(((((((((((((( . ... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . ... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE81*******
+CNNNNNGNNNNNNN A 6840 NNNNNNGNNNNNUNNNNNG AAA 5746 CNNNNNGNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 1012 NNNNNNGNNNNNUNNNNNG AAA 975 CNNNNNGNNNNNUNNNNNN A NNNNNGNNNNG
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... ... ))))))))))))))))))) . )))))))))))
+
+*******TILE82*******
+GNNNNNGNNNNNNN A 3603 NNNNNNGNNNNNGNNNNNG AAA 916 CNNNNNUNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 4469 NNNNNNUNNNNNUNNNNNG AAA 0536 CNNNNNGNNNNNGNNNNNN A NNNNNGNNNNC
+(((((((((((((( . .... ((((((((((((((((((( ... ... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE83*******
+CNNNNNUNNNNNNN A 2486 NNNNNNGNNNNNUNNNNNG AAA 4245 CNNNNNGNNNNNUNNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 1624 NNNNNNGNNNNNUNNNNNG AAA 5313 CNNNNNGNNNNNUNNNNNN A NNNNNUNNNNG
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE84*******
+GNNNNNGNNNNNNN A 3615 NNNNNNUNNNNNGNNNNNG AAA 3515 CNNNNNUNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 1357 NNNNNNUNNNNNUNNNNNG AAA 0166 CNNNNNGNNNNNGNNNNNN A NNNNNGNNNNC
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE85*******
+CNNNNNGNNNNNNN A 758 NNNNNNGNNNNNGNNNNNG AAA 5272 CNNNNNUNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 489 NNNNNNUNNNNNUNNNNNG AAA 6086 CNNNNNGNNNNNGNNNNNN A NNNNNGNNNNG
+(((((((((((((( . ... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . ... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE86*******
+GNNNNNGNNNNNNN A 747 NNNNNNGNNNNNGNNNNNG AAA 6553 CNNNNNUNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 6653 NNNNNNGNNNNNGNNNNNG AAA 9493 CNNNNNUNNNNNUNNNNNN A NNNNNGNNNNC
+(((((((((((((( . ... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE87*******
+CNNNNNGNNNNNNN A 2545 NNNNNNGNNNNNUNNNNNG AAA 8074 CNNNNNGNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 6192 NNNNNNUNNNNNGNNNNNG AAA 1145 CNNNNNUNNNNNGNNNNNN A NNNNNGNNNNG
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))
+
+*******TILE88*******
+GNNNNNUNNNNNNN A 6951 NNNNNNGNNNNNUNNNNNG AAA 7212 CNNNNNGNNNNNUNNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 7822 NNNNNNUNNNNNUNNNNNG AAA 473 CNNNNNGNNNNNGNNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... ... ))))))))))))))))))) . )))))))))))
+
+*******TILE89*******
+CNNNNNNGNNNNNNN AAAUAAA NNNNNNGNNNNNGNNNNNG AAA 6031 CNNNNNUNNNNNUNNNNNN NNNNNNNUNNNNNNN NNNNNNUNNNNN AAUAAUA NNNNNNGNNNNNGNNNNNG AAA 614 CNNNNNUNNNNNUNNNNNN NNNNNGNNNNNG
+((((((((((((((( ....... ((((((((((((((((((( ... .... ))))))))))))))))))) ))))))))))))))) (((((((((((( ....... ((((((((((((((((((( ... ... ))))))))))))))))))) ))))))))))))
+
+*******TILE90*******
+GNNNNNGNNNNNNN A 6024 NNNNNNNNN GUAA NNNNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 6475 NNNNNNNNN UUCG NNNNNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... ((((((((( .... ))))))))) . )))))))))))))) ((((((((((( . .... ((((((((( .... ))))))))) . )))))))))))
+
+*******TILE91*******
+CNNNNNUNNNNNNN A 6608 NNNNNGNNNNNUNNNNNG AAA 4511 CNNNNNGNNNNNUNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 619 NNNNNGNNNNNGNNNNNG AAA 0486 CNNNNNUNNNNNUNNNNN A NNNNNUNNNNG
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . ... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE92*******
+GNNNNNUNNNNNNN A 6496 NNNNNUNNNNNGNNNNNG AAA 4492 CNNNNNUNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 5424 NNNNNGNNNNNUNNNNNG AAA 3063 CNNNNNGNNNNNUNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE93*******
+CNNNNNUNNNNNNN A 2849 NNNNNUNNNNNGNNNNNG AAA 208 CNNNNNUNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 5153 NNNNNUNNNNNUNNNNNG AAA 6842 CNNNNNGNNNNNGNNNNN A NNNNNGNNNNG
+(((((((((((((( . .... (((((((((((((((((( ... ... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE94*******
+GNNNNNUNNNNNNN A 2833 NNNNNUNNNNNUNNNNNG AAA 1022 CNNNNNGNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 2725 NNNNNUNNNNNUNNNNNG AAA 5163 CNNNNNGNNNNNGNNNNN A NNNNNGNNNNC
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE95*******
+CNNNNNUNNNNNNN A 3724 NNNNNGNNNNNGNNNNNG AAA 507 CNNNNNUNNNNNUNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 3556 NNNNNUNNNNNGNNNNNG AAA 857 CNNNNNUNNNNNGNNNNN A NNNNNUNNNNG
+(((((((((((((( . .... (((((((((((((((((( ... ... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... ... )))))))))))))))))) . )))))))))))
+
+*******TILE96*******
+GNNNNNGNNNNNNN A 5145 NNNNNGNNNNNGNNNNNG AAA 6601 CNNNNNUNNNNNUNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 4708 NNNNNUNNNNNGNNNNNG AAA 747 CNNNNNUNNNNNGNNNNN A NNNNNGNNNNC
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... ... )))))))))))))))))) . )))))))))))
+
+*******TILE97*******
+CNNNNNGNNNNNNN A 2416 NNNNNUNNNNNUNNNNNG AAA 7581 CNNNNNGNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 2127 NNNNNGNNNNNUNNNNNG AAA 5452 CNNNNNGNNNNNUNNNNN A NNNNNUNNNNG
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE98*******
+GNNNNNUNNNNNNN A 6092 NNNNNUNNNNNUNNNNNG AAA 4722 CNNNNNGNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 1306 NNNNNUNNNNNUNNNNNG AAA 1596 CNNNNNGNNNNNGNNNNN A NNNNNUNNNNC
+(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))
+
+*******TILE99*******
+CNNNNNNN UUCG NNNNNNNN NNNNNNNN A 1154 NNNNNNGNNNNNUNNNNNG AAA 4206 CNNNNNGNNNNNUNNNNNN A NNNNNNNG
+(((((((( .... )))))))) (((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))
+
+*******TILE100*******
+GNNNNNNN UUCG NNNNNNNN NNNNNNNN A 2944 NNNNNNUNNNNNGNNNNNG AAA 8066 CNNNNNUNNNNNGNNNNNN A NNNNNNNC
+(((((((( .... )))))))) (((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))
+
+*******TILE101*******
+CNNNNNNN UUCG NNNNNNNN NNNNNNNN A 802 NNNNNNUNNNNNGNNNNNG AAA 6946 CNNNNNUNNNNNGNNNNNN A NNNNNNNG
+(((((((( .... )))))))) (((((((( . ... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))
+
+*******TILE102*******
+GNNNNNNN UUCG NNNNNNNN NNNNNNNN A 2201 NNNNNNGNNNNNGNNNNNG AAA 9482 CNNNNNUNNNNNUNNNNNN A NNNNNNNC
+(((((((( .... )))))))) (((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))
+
+*******TILE103*******
+CNNNNNNN UUCG NNNNNNNN NNNNNNNN A 705 NNNNNNGNNNNNUNNNNNG AAA 3382 CNNNNNGNNNNNUNNNNNN A NNNNNNNG
+(((((((( .... )))))))) (((((((( . ... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))
+
+*******TILE104*******
+GNNNNNNN UUCG NNNNNNNN NNNNNNNN A 1066 NNNNNNUNNNNNGNNNNNG AAA 4273 CNNNNNUNNNNNGNNNNNN A NNNNNNNC
+(((((((( .... )))))))) (((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))
+
+*******TILE105*******
+CNNNNNNN UUCG NNNNNNNN NNNNNNNN A 1857 NNNNNNUNNNNNGNNNNNG AAA 5415 CNNNNNUNNNNNGNNNNNN A NNNNNNNG
+(((((((( .... )))))))) (((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))
+
+*******TILE106*******
+GNNNNNNN UUCG NNNNNNNN NNNNNNNN A 2274 NNNNNNUNNNNNGNNNNNG AAA 6142 CNNNNNUNNNNNGNNNNNN A NNNNNNNC
+(((((((( .... )))))))) (((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))
+
+*******TILE107*******
+CNNNNNNNN UUCG NNNNNNNNN NNNNNNNNN A AAUAAUA NNNNNNGNNNNNUNNNNNG AAA 2906 CNNNNNGNNNNNUNNNNNN A NNNNNNNNG
+((((((((( .... ))))))))) ((((((((( . ....... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))

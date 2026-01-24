@@ -1,0 +1,1296 @@
+
+*******TILE0*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 3375 NNNNNNNNN GUAA NNNNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 4533 NNNNNNNNN UUCG NNNNNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile0 =(((((((((((((( . .... ((((((((( .... ))))))))) . )))))))))))))) ((((((((((( . .... ((((((((( .... ))))))))) . ))))))))))) .. ..............
+Tile0.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE1*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 3573 NNNNNUNNNNNUNNNNNG AAA 9671 CNNNNNGNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 4701 NNNNNNNUNNNNNNNGNNNNNNUNNNNNNNGNNNNNNNGNNNNNNG AAA 3354 CNNNNNNUNNNNNNNUNNNNNNNGNNNNNNUNNNNNNNGNNNNNNN A NNNNNUNNNNG uu cacgaagucaauac
+structure Tile1 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((((((((((((((((((((((((((((((( ... .... )))))))))))))))))))))))))))))))))))))))))))))) . ))))))))))) .. ..............
+Tile1.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE2*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 1081 NNNNNGNNNNNGNNNNNG AAA 683 CNNNNNUNNNNNUNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 4827 NNNNNNNUNNNNNNNUNNNNNNUNNNNNNNGNNNNNNNUNNNNNNG AAA 1074 CNNNNNNGNNNNNNNUNNNNNNNGNNNNNNGNNNNNNNGNNNNNNN A NNNNNGNNNNC uu cacgaagucaauac
+structure Tile2 =(((((((((((((( . .... (((((((((((((((((( ... ... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((((((((((((((((((((((((((((((( ... .... )))))))))))))))))))))))))))))))))))))))))))))) . ))))))))))) .. ..............
+Tile2.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE3*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 961 NNNNNUNNNNNUNNNNNG AAA 5032 CNNNNNGNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 7846 NNNNNNNGNNNNNNNGNNNNNNUNNNNNNNGNNNNNNNUNNNNNNG AAA 7284 CNNNNNNGNNNNNNNUNNNNNNNGNNNNNNUNNNNNNNUNNNNNNN A NNNNNGNNNNG uu cacgaagucaauac
+structure Tile3 =(((((((((((((( . ... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((((((((((((((((((((((((((((((( ... .... )))))))))))))))))))))))))))))))))))))))))))))) . ))))))))))) .. ..............
+Tile3.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE4*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNUNNNNNNN A 3062 NNNNNUNNNNNGNNNNNG AAA 0308 CNNNNNUNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 3119 NNNNNNNUNNNNNNNGNNNNNNGNNNNNNNUNNNNNNNUNNNNNNG AAA 6487 CNNNNNNGNNNNNNNGNNNNNNNUNNNNNNUNNNNNNNGNNNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile4 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((((((((((((((((((((((((((((((( ... .... )))))))))))))))))))))))))))))))))))))))))))))) . ))))))))))) .. ..............
+Tile4.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE5*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNUNNNNNNN A 5660 NNNNNUNNNNNGNNNNNG AAA 3411 CNNNNNUNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 2676 NNNNNNNUNNNNNNNUNNNNNNGNNNNNNNUNNNNNNNGNNNNNNG AAA 9113 CNNNNNNUNNNNNNNGNNNNNNNUNNNNNNGNNNNNNNGNNNNNNN A NNNNNUNNNNG uu cacgaagucaauac
+structure Tile5 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((((((((((((((((((((((((((((((( ... .... )))))))))))))))))))))))))))))))))))))))))))))) . ))))))))))) .. ..............
+Tile5.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE6*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNUNNNNNNN A 1382 NNNNNUNNNNNUNNNNNG AAA 6554 CNNNNNGNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 6049 NNNNNNNUNNNNNNNUNNNNNNUNNNNNNNGNNNNNNNGNNNNNNG AAA 6762 CNNNNNNUNNNNNNNUNNNNNNNGNNNNNNGNNNNNNNGNNNNNNN A NNNNNGNNNNC uu cacgaagucaauac
+structure Tile6 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((((((((((((((((((((((((((((((( ... .... )))))))))))))))))))))))))))))))))))))))))))))) . ))))))))))) .. ..............
+Tile6.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE7*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 6549 NNNNNGNNNNNGNNNNNG AAA 8606 CNNNNNUNNNNNUNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 7223 NNNNNNNUNNNNNNNGNNNNNNUNNNNNNNUNNNNNNNGNNNNNNG AAA 9406 CNNNNNNUNNNNNNNGNNNNNNNGNNNNNNUNNNNNNNGNNNNNNN A NNNNNGNNNNG uu cacgaagucaauac
+structure Tile7 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((((((((((((((((((((((((((((((( ... .... )))))))))))))))))))))))))))))))))))))))))))))) . ))))))))))) .. ..............
+Tile7.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE8*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 5362 NNNNNGNNNNNGNNNNNG AAA 6334 CNNNNNUNNNNNUNNNNN A NNNNNNNUNNNNNN NNNNNNUNNNNN AAUAAUA NNNNNNNUNNNNNNNUNNNNNNGNNNNNNNUNNNNNNNUNNNNNNG AAA 3227 CNNNNNNGNNNNNNNGNNNNNNNUNNNNNNGNNNNNNNGNNNNNNN NNNNNGNNNNNC uu cacgaagucaauac
+structure Tile8 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) (((((((((((( ....... (((((((((((((((((((((((((((((((((((((((((((((( ... .... )))))))))))))))))))))))))))))))))))))))))))))) )))))))))))) .. ..............
+Tile8.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE9*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 5029 NNNNNNGNNNNNGNNNNNG AAA 9795 CNNNNNUNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 1769 NNNNNNGNNNNNGNNNNNG AAA 5733 CNNNNNUNNNNNUNNNNNN A NNNNNUNNNNG uu cacgaagucaauac
+structure Tile9 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile9.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE10*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 2036 NNNNNNUNNNNNUNNNNNG AAA 367 CNNNNNGNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 386 NNNNNNGNNNNNGNNNNNG AAA 3753 CNNNNNUNNNNNUNNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile10 =(((((((((((((( . .... ((((((((((((((((((( ... ... ))))))))))))))))))) . )))))))))))))) ((((((((((( . ... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile10.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE11*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNUNNNNNNN A 2852 NNNNNNUNNNNNUNNNNNG AAA 5015 CNNNNNGNNNNNGNNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 2305 NNNNNNGNNNNNGNNNNNG AAA 1801 CNNNNNUNNNNNUNNNNNN A NNNNNGNNNNG uu cacgaagucaauac
+structure Tile11 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile11.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE12*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNUNNNNNNN A 85 NNNNNNGNNNNNUNNNNNG AAA 5621 CNNNNNGNNNNNUNNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 8030 NNNNNNGNNNNNGNNNNNG AAA 169 CNNNNNUNNNNNUNNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile12 =(((((((((((((( . .. ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... ... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile12.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE13*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 6100 NNNNNNUNNNNNGNNNNNG AAA 1843 CNNNNNUNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 1143 NNNNNNGNNNNNUNNNNNG AAA 2603 CNNNNNGNNNNNUNNNNNN A NNNNNUNNNNG uu cacgaagucaauac
+structure Tile13 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile13.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE14*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 4471 NNNNNNUNNNNNGNNNNNG AAA 49 CNNNNNUNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 4556 NNNNNNGNNNNNGNNNNNG AAA 0665 CNNNNNUNNNNNUNNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile14 =(((((((((((((( . .... ((((((((((((((((((( ... .. ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile14.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE15*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 4894 NNNNNNGNNNNNGNNNNNG AAA 2613 CNNNNNUNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 6068 NNNNNNGNNNNNUNNNNNG AAA 2831 CNNNNNGNNNNNUNNNNNN A NNNNNGNNNNG uu cacgaagucaauac
+structure Tile15 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile15.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE16*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNUNNNNNNN A 7183 NNNNNNUNNNNNGNNNNNG AAA 5482 CNNNNNUNNNNNGNNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 4336 NNNNNNGNNNNNGNNNNNG AAA 9456 CNNNNNUNNNNNUNNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile16 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile16.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE17*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNNGNNNNNNN AAAUAAA NNNNNNUNNNNNUNNNNNG AAA 7108 CNNNNNGNNNNNGNNNNNN NNNNNNNUNNNNNNN NNNNNNGNNNNN AAUAAUA NNNNNNGNNNNNUNNNNNG AAA 2635 CNNNNNGNNNNNUNNNNNN NNNNNUNNNNNG uu cacgaagucaauac
+structure Tile17 =((((((((((((((( ....... ((((((((((((((((((( ... .... ))))))))))))))))))) ))))))))))))))) (((((((((((( ....... ((((((((((((((((((( ... .... ))))))))))))))))))) )))))))))))) .. ..............
+Tile17.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE18*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNUNNNNNNN A 6498 NNNNNNNNN GUAA NNNNNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 5979 NNNNNNNNN UUCG NNNNNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile18 =(((((((((((((( . .... ((((((((( .... ))))))))) . )))))))))))))) ((((((((((( . .... ((((((((( .... ))))))))) . ))))))))))) .. ..............
+Tile18.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE19*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 6021 NNNNNGNNNNNGNNNNNG AAA 8453 CNNNNNUNNNNNUNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 763 NNNNNUNNNNNUNNNNNG AAA 9205 CNNNNNGNNNNNGNNNNN A NNNNNGNNNNG uu cacgaagucaauac
+structure Tile19 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . ... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile19.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE20*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNUNNNNNNN A 64 NNNNNUNNNNNUNNNNNG AAA 676 CNNNNNGNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 5105 NNNNNUNNNNNGNNNNNG AAA 6302 CNNNNNUNNNNNGNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile20 =(((((((((((((( . .. (((((((((((((((((( ... ... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile20.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE21*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNUNNNNNNN A 6577 NNNNNUNNNNNGNNNNNG AAA 4946 CNNNNNUNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 1265 NNNNNGNNNNNUNNNNNG AAA 2582 CNNNNNGNNNNNUNNNNN A NNNNNGNNNNG uu cacgaagucaauac
+structure Tile21 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile21.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE22*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNUNNNNNNN A 2015 NNNNNUNNNNNUNNNNNG AAA 6501 CNNNNNGNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 3481 NNNNNGNNNNNUNNNNNG AAA 58 CNNNNNGNNNNNUNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile22 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .. )))))))))))))))))) . ))))))))))) .. ..............
+Tile22.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE23*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNUNNNNNNN A 1129 NNNNNUNNNNNUNNNNNG AAA 9095 CNNNNNGNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 94 NNNNNUNNNNNGNNNNNG AAA 0016 CNNNNNUNNNNNGNNNNN A NNNNNUNNNNG uu cacgaagucaauac
+structure Tile23 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .. (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile23.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE24*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNUNNNNNNN A 2089 NNNNNGNNNNNUNNNNNG AAA 4361 CNNNNNGNNNNNUNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 3162 NNNNNGNNNNNUNNNNNG AAA 1744 CNNNNNGNNNNNUNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile24 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile24.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE25*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 2960 NNNNNGNNNNNUNNNNNG AAA 192 CNNNNNGNNNNNUNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 2845 NNNNNGNNNNNGNNNNNG AAA 4984 CNNNNNUNNNNNUNNNNN A NNNNNUNNNNG uu cacgaagucaauac
+structure Tile25 =(((((((((((((( . .... (((((((((((((((((( ... ... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile25.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE26*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 4470 NNNNNUNNNNNGNNNNNG AAA 942 CNNNNNUNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 8017 NNNNNUNNNNNUNNNNNG AAA 3817 CNNNNNGNNNNNGNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile26 =(((((((((((((( . .... (((((((((((((((((( ... ... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile26.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE27*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNUNNNNNNN A 6357 NNNNNNUNNNNNGNNNNNG AAA 2092 CNNNNNUNNNNNGNNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 3548 NNNNNNUNNNNNGNNNNNG AAA 8946 CNNNNNUNNNNNGNNNNNN A NNNNNGNNNNG uu cacgaagucaauac
+structure Tile27 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile27.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE28*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 4107 NNNNNNUNNNNNGNNNNNG AAA 8211 CNNNNNUNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 676 NNNNNNUNNNNNUNNNNNG AAA 1206 CNNNNNGNNNNNGNNNNNN A NNNNNGNNNNC uu cacgaagucaauac
+structure Tile28 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . ... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile28.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE29*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 3665 NNNNNNUNNNNNUNNNNNG AAA 0912 CNNNNNGNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 6494 NNNNNNUNNNNNGNNNNNG AAA 46 CNNNNNUNNNNNGNNNNNN A NNNNNGNNNNG uu cacgaagucaauac
+structure Tile29 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .. ))))))))))))))))))) . ))))))))))) .. ..............
+Tile29.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE30*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 3187 NNNNNNUNNNNNUNNNNNG AAA 7351 CNNNNNGNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 1056 NNNNNNUNNNNNUNNNNNG AAA 7756 CNNNNNGNNNNNGNNNNNN A NNNNNGNNNNC uu cacgaagucaauac
+structure Tile30 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile30.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE31*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 6285 NNNNNNUNNNNNUNNNNNG AAA 8034 CNNNNNGNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 5909 NNNNNNUNNNNNUNNNNNG AAA 5102 CNNNNNGNNNNNGNNNNNN A NNNNNUNNNNG uu cacgaagucaauac
+structure Tile31 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile31.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE32*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNUNNNNNNN A 4768 NNNNNNUNNNNNUNNNNNG AAA 9185 CNNNNNGNNNNNGNNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 1634 NNNNNNUNNNNNUNNNNNG AAA 9211 CNNNNNGNNNNNGNNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile32 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile32.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE33*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 7595 NNNNNNUNNNNNUNNNNNG AAA 6162 CNNNNNGNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 291 NNNNNNGNNNNNGNNNNNG AAA 9802 CNNNNNUNNNNNUNNNNNN A NNNNNGNNNNG uu cacgaagucaauac
+structure Tile33 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . ... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile33.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE34*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 3850 NNNNNNUNNNNNGNNNNNG AAA 7482 CNNNNNUNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 249 NNNNNNGNNNNNGNNNNNG AAA 0692 CNNNNNUNNNNNUNNNNNN A NNNNNGNNNNC uu cacgaagucaauac
+structure Tile34 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . ... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile34.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE35*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNNUNNNNNNN AAAUAAA NNNNNNUNNNNNGNNNNNG AAA 4336 CNNNNNUNNNNNGNNNNNN NNNNNNNGNNNNNNN NNNNNNGNNNNN AAUAAUA NNNNNNUNNNNNUNNNNNG AAA 0744 CNNNNNGNNNNNGNNNNNN NNNNNUNNNNNG uu cacgaagucaauac
+structure Tile35 =((((((((((((((( ....... ((((((((((((((((((( ... .... ))))))))))))))))))) ))))))))))))))) (((((((((((( ....... ((((((((((((((((((( ... .... ))))))))))))))))))) )))))))))))) .. ..............
+Tile35.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE36*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 7086 NNNNNNNNN GUAA NNNNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 2902 NNNNNNNNN UUCG NNNNNNNNN A NNNNNGNNNNC uu cacgaagucaauac
+structure Tile36 =(((((((((((((( . .... ((((((((( .... ))))))))) . )))))))))))))) ((((((((((( . .... ((((((((( .... ))))))))) . ))))))))))) .. ..............
+Tile36.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE37*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNUNNNNNNN A 3008 NNNNNUNNNNNGNNNNNG AAA 9574 CNNNNNUNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 1128 NNNNNUNNNNNGNNNNNG AAA 7536 CNNNNNUNNNNNGNNNNN A NNNNNGNNNNG uu cacgaagucaauac
+structure Tile37 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile37.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE38*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNUNNNNNNN A 2906 NNNNNGNNNNNUNNNNNG AAA 6412 CNNNNNGNNNNNUNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 2190 NNNNNUNNNNNGNNNNNG AAA 7014 CNNNNNUNNNNNGNNNNN A NNNNNGNNNNC uu cacgaagucaauac
+structure Tile38 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile38.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE39*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNUNNNNNNN A 7267 NNNNNGNNNNNGNNNNNG AAA 6921 CNNNNNUNNNNNUNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 1537 NNNNNUNNNNNUNNNNNG AAA 5663 CNNNNNGNNNNNGNNNNN A NNNNNUNNNNG uu cacgaagucaauac
+structure Tile39 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile39.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE40*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNUNNNNNNN A 1556 NNNNNGNNNNNGNNNNNG AAA 0654 CNNNNNUNNNNNUNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 4308 NNNNNUNNNNNGNNNNNG AAA 7813 CNNNNNUNNNNNGNNNNN A NNNNNGNNNNC uu cacgaagucaauac
+structure Tile40 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile40.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE41*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 4613 NNNNNGNNNNNUNNNNNG AAA 7966 CNNNNNGNNNNNUNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 5819 NNNNNGNNNNNGNNNNNG AAA 5826 CNNNNNUNNNNNUNNNNN A NNNNNUNNNNG uu cacgaagucaauac
+structure Tile41 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile41.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE42*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 3274 NNNNNUNNNNNGNNNNNG AAA 1161 CNNNNNUNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 2616 NNNNNGNNNNNGNNNNNG AAA 8674 CNNNNNUNNNNNUNNNNN A NNNNNGNNNNC uu cacgaagucaauac
+structure Tile42 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile42.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE43*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 1206 NNNNNUNNNNNGNNNNNG AAA 9061 CNNNNNUNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 2847 NNNNNGNNNNNGNNNNNG AAA 5957 CNNNNNUNNNNNUNNNNN A NNNNNGNNNNG uu cacgaagucaauac
+structure Tile43 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile43.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE44*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 4075 NNNNNGNNNNNGNNNNNG AAA 8921 CNNNNNUNNNNNUNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 6334 NNNNNUNNNNNUNNNNNG AAA 0583 CNNNNNGNNNNNGNNNNN A NNNNNGNNNNC uu cacgaagucaauac
+structure Tile44 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile44.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE45*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNUNNNNNNN A 3040 NNNNNNUNNNNNUNNNNNG AAA 1972 CNNNNNGNNNNNGNNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 4759 NNNNNNGNNNNNUNNNNNG AAA 6807 CNNNNNGNNNNNUNNNNNN A NNNNNUNNNNG uu cacgaagucaauac
+structure Tile45 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile45.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE46*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNUNNNNNNN A 799 NNNNNNGNNNNNGNNNNNG AAA 65 CNNNNNUNNNNNUNNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 2146 NNNNNNGNNNNNGNNNNNG AAA 8003 CNNNNNUNNNNNUNNNNNN A NNNNNGNNNNC uu cacgaagucaauac
+structure Tile46 =(((((((((((((( . ... ((((((((((((((((((( ... .. ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile46.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE47*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 4723 NNNNNNUNNNNNGNNNNNG AAA 5812 CNNNNNUNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 1296 NNNNNNUNNNNNUNNNNNG AAA 6092 CNNNNNGNNNNNGNNNNNN A NNNNNUNNNNG uu cacgaagucaauac
+structure Tile47 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile47.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE48*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 3502 NNNNNNGNNNNNUNNNNNG AAA 4297 CNNNNNGNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 4560 NNNNNNUNNNNNUNNNNNG AAA 7627 CNNNNNGNNNNNGNNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile48 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile48.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE49*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 3431 NNNNNNUNNNNNGNNNNNG AAA 4914 CNNNNNUNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 6697 NNNNNNGNNNNNGNNNNNG AAA 6551 CNNNNNUNNNNNUNNNNNN A NNNNNGNNNNG uu cacgaagucaauac
+structure Tile49 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile49.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE50*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 1308 NNNNNNGNNNNNGNNNNNG AAA 4483 CNNNNNUNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 1611 NNNNNNUNNNNNUNNNNNG AAA 3164 CNNNNNGNNNNNGNNNNNN A NNNNNGNNNNC uu cacgaagucaauac
+structure Tile50 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile50.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE51*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 7201 NNNNNNGNNNNNUNNNNNG AAA 961 CNNNNNGNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 1609 NNNNNNUNNNNNGNNNNNG AAA 4723 CNNNNNUNNNNNGNNNNNN A NNNNNUNNNNG uu cacgaagucaauac
+structure Tile51 =(((((((((((((( . .... ((((((((((((((((((( ... ... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile51.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE52*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 5328 NNNNNNGNNNNNGNNNNNG AAA 9344 CNNNNNUNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 1298 NNNNNNGNNNNNUNNNNNG AAA 6021 CNNNNNGNNNNNUNNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile52 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile52.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE53*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNNUNNNNNNN AAAUAAA NNNNNNUNNNNNUNNNNNG AAA 8337 CNNNNNGNNNNNGNNNNNN NNNNNNNGNNNNNNN NNNNNNUNNNNN AAUAAUA NNNNNNUNNNNNGNNNNNG AAA 5704 CNNNNNUNNNNNGNNNNNN NNNNNGNNNNNG uu cacgaagucaauac
+structure Tile53 =((((((((((((((( ....... ((((((((((((((((((( ... .... ))))))))))))))))))) ))))))))))))))) (((((((((((( ....... ((((((((((((((((((( ... .... ))))))))))))))))))) )))))))))))) .. ..............
+Tile53.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE54*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 1645 NNNNNNNNN GUAA NNNNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 2791 NNNNNNNNN UUCG NNNNNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile54 =(((((((((((((( . .... ((((((((( .... ))))))))) . )))))))))))))) ((((((((((( . .... ((((((((( .... ))))))))) . ))))))))))) .. ..............
+Tile54.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE55*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 4571 NNNNNUNNNNNUNNNNNG AAA 0382 CNNNNNGNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 56 NNNNNUNNNNNGNNNNNG AAA 0403 CNNNNNUNNNNNGNNNNN A NNNNNGNNNNG uu cacgaagucaauac
+structure Tile55 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .. (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile55.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE56*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 2311 NNNNNGNNNNNGNNNNNG AAA 0586 CNNNNNUNNNNNUNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 2185 NNNNNGNNNNNUNNNNNG AAA 997 CNNNNNGNNNNNUNNNNN A NNNNNGNNNNC uu cacgaagucaauac
+structure Tile56 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... ... )))))))))))))))))) . ))))))))))) .. ..............
+Tile56.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE57*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 8033 NNNNNUNNNNNUNNNNNG AAA 8312 CNNNNNGNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 7924 NNNNNUNNNNNUNNNNNG AAA 3274 CNNNNNGNNNNNGNNNNN A NNNNNUNNNNG uu cacgaagucaauac
+structure Tile57 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile57.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE58*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNUNNNNNNN A 1929 NNNNNGNNNNNUNNNNNG AAA 3454 CNNNNNGNNNNNUNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 4194 NNNNNGNNNNNGNNNNNG AAA 2053 CNNNNNUNNNNNUNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile58 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile58.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE59*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 3946 NNNNNUNNNNNGNNNNNG AAA 3232 CNNNNNUNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 3844 NNNNNGNNNNNUNNNNNG AAA 1343 CNNNNNGNNNNNUNNNNN A NNNNNUNNNNG uu cacgaagucaauac
+structure Tile59 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile59.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE60*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNUNNNNNNN A 5241 NNNNNUNNNNNGNNNNNG AAA 221 CNNNNNUNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 169 NNNNNGNNNNNUNNNNNG AAA 8031 CNNNNNGNNNNNUNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile60 =(((((((((((((( . .... (((((((((((((((((( ... ... )))))))))))))))))) . )))))))))))))) ((((((((((( . ... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile60.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE61*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNUNNNNNNN A 6761 NNNNNGNNNNNGNNNNNG AAA 5393 CNNNNNUNNNNNUNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 4439 NNNNNGNNNNNGNNNNNG AAA 1027 CNNNNNUNNNNNUNNNNN A NNNNNUNNNNG uu cacgaagucaauac
+structure Tile61 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile61.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE62*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 2886 NNNNNUNNNNNGNNNNNG AAA 8974 CNNNNNUNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 7338 NNNNNGNNNNNUNNNNNG AAA 8235 CNNNNNGNNNNNUNNNNN A NNNNNGNNNNC uu cacgaagucaauac
+structure Tile62 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile62.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE63*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 6813 NNNNNNGNNNNNUNNNNNG AAA 7517 CNNNNNGNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 2830 NNNNNNUNNNNNGNNNNNG AAA 5461 CNNNNNUNNNNNGNNNNNN A NNNNNGNNNNG uu cacgaagucaauac
+structure Tile63 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile63.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE64*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNUNNNNNNN A 3609 NNNNNNUNNNNNUNNNNNG AAA 3013 CNNNNNGNNNNNGNNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 6850 NNNNNNGNNNNNGNNNNNG AAA 1754 CNNNNNUNNNNNUNNNNNN A NNNNNGNNNNC uu cacgaagucaauac
+structure Tile64 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile64.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE65*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 5621 NNNNNNUNNNNNUNNNNNG AAA 7245 CNNNNNGNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 2138 NNNNNNUNNNNNUNNNNNG AAA 1132 CNNNNNGNNNNNGNNNNNN A NNNNNGNNNNG uu cacgaagucaauac
+structure Tile65 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile65.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE66*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 6742 NNNNNNUNNNNNUNNNNNG AAA 2621 CNNNNNGNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 4543 NNNNNNUNNNNNUNNNNNG AAA 3308 CNNNNNGNNNNNGNNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile66 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile66.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE67*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNUNNNNNNN A 6890 NNNNNNUNNNNNUNNNNNG AAA 9691 CNNNNNGNNNNNGNNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 2323 NNNNNNGNNNNNUNNNNNG AAA 9291 CNNNNNGNNNNNUNNNNNN A NNNNNUNNNNG uu cacgaagucaauac
+structure Tile67 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile67.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE68*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 4185 NNNNNNUNNNNNUNNNNNG AAA 6303 CNNNNNGNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 122 NNNNNNGNNNNNUNNNNNG AAA 6493 CNNNNNGNNNNNUNNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile68 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . ... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile68.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE69*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNUNNNNNNN A 7552 NNNNNNUNNNNNGNNNNNG AAA 4891 CNNNNNUNNNNNGNNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 3935 NNNNNNGNNNNNUNNNNNG AAA 1425 CNNNNNGNNNNNUNNNNNN A NNNNNGNNNNG uu cacgaagucaauac
+structure Tile69 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile69.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE70*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 2703 NNNNNNUNNNNNUNNNNNG AAA 9427 CNNNNNGNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 4798 NNNNNNUNNNNNUNNNNNG AAA 1676 CNNNNNGNNNNNGNNNNNN A NNNNNGNNNNC uu cacgaagucaauac
+structure Tile70 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile70.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE71*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNNGNNNNNNN AAAUAAA NNNNNNGNNNNNUNNNNNG AAA 288 CNNNNNGNNNNNUNNNNNN NNNNNNNUNNNNNNN NNNNNNUNNNNN AAUAAUA NNNNNNUNNNNNUNNNNNG AAA 6882 CNNNNNGNNNNNGNNNNNN NNNNNGNNNNNG uu cacgaagucaauac
+structure Tile71 =((((((((((((((( ....... ((((((((((((((((((( ... ... ))))))))))))))))))) ))))))))))))))) (((((((((((( ....... ((((((((((((((((((( ... .... ))))))))))))))))))) )))))))))))) .. ..............
+Tile71.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE72*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 579 NNNNNNNNN GUAA NNNNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 7157 NNNNNNNNN UUCG NNNNNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile72 =(((((((((((((( . ... ((((((((( .... ))))))))) . )))))))))))))) ((((((((((( . .... ((((((((( .... ))))))))) . ))))))))))) .. ..............
+Tile72.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE73*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNUNNNNNNN A 6350 NNNNNUNNNNNGNNNNNG AAA 2101 CNNNNNUNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 3103 NNNNNGNNNNNUNNNNNG AAA 3186 CNNNNNGNNNNNUNNNNN A NNNNNGNNNNG uu cacgaagucaauac
+structure Tile73 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile73.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE74*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 3135 NNNNNUNNNNNUNNNNNG AAA 9644 CNNNNNGNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 5427 NNNNNGNNNNNUNNNNNG AAA 9063 CNNNNNGNNNNNUNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile74 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile74.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE75*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 6610 NNNNNUNNNNNUNNNNNG AAA 4261 CNNNNNGNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 1262 NNNNNUNNNNNUNNNNNG AAA 1265 CNNNNNGNNNNNGNNNNN A NNNNNUNNNNG uu cacgaagucaauac
+structure Tile75 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile75.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE76*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNUNNNNNNN A 6806 NNNNNGNNNNNGNNNNNG AAA 7531 CNNNNNUNNNNNUNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 1969 NNNNNUNNNNNUNNNNNG AAA 2476 CNNNNNGNNNNNGNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile76 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile76.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE77*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNUNNNNNNN A 3949 NNNNNUNNNNNGNNNNNG AAA 984 CNNNNNUNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 3036 NNNNNGNNNNNGNNNNNG AAA 0986 CNNNNNUNNNNNUNNNNN A NNNNNUNNNNG uu cacgaagucaauac
+structure Tile77 =(((((((((((((( . .... (((((((((((((((((( ... ... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile77.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE78*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNUNNNNNNN A 5411 NNNNNGNNNNNUNNNNNG AAA 3566 CNNNNNGNNNNNUNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 1984 NNNNNGNNNNNGNNNNNG AAA 5814 CNNNNNUNNNNNUNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile78 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile78.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE79*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNUNNNNNNN A 374 NNNNNUNNNNNUNNNNNG AAA 2916 CNNNNNGNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 7249 NNNNNGNNNNNGNNNNNG AAA 2557 CNNNNNUNNNNNUNNNNN A NNNNNUNNNNG uu cacgaagucaauac
+structure Tile79 =(((((((((((((( . ... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile79.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE80*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNUNNNNNNN A 416 NNNNNUNNNNNUNNNNNG AAA 2287 CNNNNNGNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 882 NNNNNGNNNNNUNNNNNG AAA 3072 CNNNNNGNNNNNUNNNNN A NNNNNGNNNNC uu cacgaagucaauac
+structure Tile80 =(((((((((((((( . ... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . ... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile80.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE81*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 6840 NNNNNNGNNNNNUNNNNNG AAA 5746 CNNNNNGNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 1012 NNNNNNGNNNNNUNNNNNG AAA 975 CNNNNNGNNNNNUNNNNNN A NNNNNGNNNNG uu cacgaagucaauac
+structure Tile81 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... ... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile81.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE82*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 3603 NNNNNNGNNNNNGNNNNNG AAA 916 CNNNNNUNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 4469 NNNNNNUNNNNNUNNNNNG AAA 0536 CNNNNNGNNNNNGNNNNNN A NNNNNGNNNNC uu cacgaagucaauac
+structure Tile82 =(((((((((((((( . .... ((((((((((((((((((( ... ... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile82.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE83*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNUNNNNNNN A 2486 NNNNNNGNNNNNUNNNNNG AAA 4245 CNNNNNGNNNNNUNNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 1624 NNNNNNGNNNNNUNNNNNG AAA 5313 CNNNNNGNNNNNUNNNNNN A NNNNNUNNNNG uu cacgaagucaauac
+structure Tile83 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile83.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE84*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 3615 NNNNNNUNNNNNGNNNNNG AAA 3515 CNNNNNUNNNNNGNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 1357 NNNNNNUNNNNNUNNNNNG AAA 0166 CNNNNNGNNNNNGNNNNNN A NNNNNGNNNNC uu cacgaagucaauac
+structure Tile84 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile84.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE85*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 758 NNNNNNGNNNNNGNNNNNG AAA 5272 CNNNNNUNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 489 NNNNNNUNNNNNUNNNNNG AAA 6086 CNNNNNGNNNNNGNNNNNN A NNNNNGNNNNG uu cacgaagucaauac
+structure Tile85 =(((((((((((((( . ... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . ... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile85.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE86*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 747 NNNNNNGNNNNNGNNNNNG AAA 6553 CNNNNNUNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 6653 NNNNNNGNNNNNGNNNNNG AAA 9493 CNNNNNUNNNNNUNNNNNN A NNNNNGNNNNC uu cacgaagucaauac
+structure Tile86 =(((((((((((((( . ... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile86.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE87*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 2545 NNNNNNGNNNNNUNNNNNG AAA 8074 CNNNNNGNNNNNUNNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 6192 NNNNNNUNNNNNGNNNNNG AAA 1145 CNNNNNUNNNNNGNNNNNN A NNNNNGNNNNG uu cacgaagucaauac
+structure Tile87 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile87.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE88*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNUNNNNNNN A 6951 NNNNNNGNNNNNUNNNNNG AAA 7212 CNNNNNGNNNNNUNNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 7822 NNNNNNUNNNNNUNNNNNG AAA 473 CNNNNNGNNNNNGNNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile88 =(((((((((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))))))))) ((((((((((( . .... ((((((((((((((((((( ... ... ))))))))))))))))))) . ))))))))))) .. ..............
+Tile88.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE89*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNNGNNNNNNN AAAUAAA NNNNNNGNNNNNGNNNNNG AAA 6031 CNNNNNUNNNNNUNNNNNN NNNNNNNUNNNNNNN NNNNNNUNNNNN AAUAAUA NNNNNNGNNNNNGNNNNNG AAA 614 CNNNNNUNNNNNUNNNNNN NNNNNGNNNNNG uu cacgaagucaauac
+structure Tile89 =((((((((((((((( ....... ((((((((((((((((((( ... .... ))))))))))))))))))) ))))))))))))))) (((((((((((( ....... ((((((((((((((((((( ... ... ))))))))))))))))))) )))))))))))) .. ..............
+Tile89.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE90*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 6024 NNNNNNNNN GUAA NNNNNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 6475 NNNNNNNNN UUCG NNNNNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile90 =(((((((((((((( . .... ((((((((( .... ))))))))) . )))))))))))))) ((((((((((( . .... ((((((((( .... ))))))))) . ))))))))))) .. ..............
+Tile90.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE91*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNUNNNNNNN A 6608 NNNNNGNNNNNUNNNNNG AAA 4511 CNNNNNGNNNNNUNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 619 NNNNNGNNNNNGNNNNNG AAA 0486 CNNNNNUNNNNNUNNNNN A NNNNNUNNNNG uu cacgaagucaauac
+structure Tile91 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . ... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile91.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE92*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNUNNNNNNN A 6496 NNNNNUNNNNNGNNNNNG AAA 4492 CNNNNNUNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 5424 NNNNNGNNNNNUNNNNNG AAA 3063 CNNNNNGNNNNNUNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile92 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile92.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE93*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNUNNNNNNN A 2849 NNNNNUNNNNNGNNNNNG AAA 208 CNNNNNUNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 5153 NNNNNUNNNNNUNNNNNG AAA 6842 CNNNNNGNNNNNGNNNNN A NNNNNGNNNNG uu cacgaagucaauac
+structure Tile93 =(((((((((((((( . .... (((((((((((((((((( ... ... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile93.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE94*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNUNNNNNNN A 2833 NNNNNUNNNNNUNNNNNG AAA 1022 CNNNNNGNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNUNNNNN A 2725 NNNNNUNNNNNUNNNNNG AAA 5163 CNNNNNGNNNNNGNNNNN A NNNNNGNNNNC uu cacgaagucaauac
+structure Tile94 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile94.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE95*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNUNNNNNNN A 3724 NNNNNGNNNNNGNNNNNG AAA 507 CNNNNNUNNNNNUNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 3556 NNNNNUNNNNNGNNNNNG AAA 857 CNNNNNUNNNNNGNNNNN A NNNNNUNNNNG uu cacgaagucaauac
+structure Tile95 =(((((((((((((( . .... (((((((((((((((((( ... ... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... ... )))))))))))))))))) . ))))))))))) .. ..............
+Tile95.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE96*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNGNNNNNNN A 5145 NNNNNGNNNNNGNNNNNG AAA 6601 CNNNNNUNNNNNUNNNNN A NNNNNNNUNNNNNN NNNNNUNNNNN A 4708 NNNNNUNNNNNGNNNNNG AAA 747 CNNNNNUNNNNNGNNNNN A NNNNNGNNNNC uu cacgaagucaauac
+structure Tile96 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... ... )))))))))))))))))) . ))))))))))) .. ..............
+Tile96.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE97*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNGNNNNNNN A 2416 NNNNNUNNNNNUNNNNNG AAA 7581 CNNNNNGNNNNNGNNNNN A NNNNNNNUNNNNNN NNNNNGNNNNN A 2127 NNNNNGNNNNNUNNNNNG AAA 5452 CNNNNNGNNNNNUNNNNN A NNNNNUNNNNG uu cacgaagucaauac
+structure Tile97 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile97.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE98*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNUNNNNNNN A 6092 NNNNNUNNNNNUNNNNNG AAA 4722 CNNNNNGNNNNNGNNNNN A NNNNNNNGNNNNNN NNNNNGNNNNN A 1306 NNNNNUNNNNNUNNNNNG AAA 1596 CNNNNNGNNNNNGNNNNN A NNNNNUNNNNC uu cacgaagucaauac
+structure Tile98 =(((((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . )))))))))))))) ((((((((((( . .... (((((((((((((((((( ... .... )))))))))))))))))) . ))))))))))) .. ..............
+Tile98.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE99*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNNN UUCG NNNNNNNN NNNNNNNN A 1154 NNNNNNGNNNNNUNNNNNG AAA 4206 CNNNNNGNNNNNUNNNNNN A NNNNNNNG uu cacgaagucaauac
+structure Tile99 =(((((((( .... )))))))) (((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))) .. ..............
+Tile99.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE100*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNNN UUCG NNNNNNNN NNNNNNNN A 2944 NNNNNNUNNNNNGNNNNNG AAA 8066 CNNNNNUNNNNNGNNNNNN A NNNNNNNC uu cacgaagucaauac
+structure Tile100 =(((((((( .... )))))))) (((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))) .. ..............
+Tile100.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE101*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNNN UUCG NNNNNNNN NNNNNNNN A 802 NNNNNNUNNNNNGNNNNNG AAA 6946 CNNNNNUNNNNNGNNNNNN A NNNNNNNG uu cacgaagucaauac
+structure Tile101 =(((((((( .... )))))))) (((((((( . ... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))) .. ..............
+Tile101.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE102*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNNN UUCG NNNNNNNN NNNNNNNN A 2201 NNNNNNGNNNNNGNNNNNG AAA 9482 CNNNNNUNNNNNUNNNNNN A NNNNNNNC uu cacgaagucaauac
+structure Tile102 =(((((((( .... )))))))) (((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))) .. ..............
+Tile102.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE103*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNNN UUCG NNNNNNNN NNNNNNNN A 705 NNNNNNGNNNNNUNNNNNG AAA 3382 CNNNNNGNNNNNUNNNNNN A NNNNNNNG uu cacgaagucaauac
+structure Tile103 =(((((((( .... )))))))) (((((((( . ... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))) .. ..............
+Tile103.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE104*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNNN UUCG NNNNNNNN NNNNNNNN A 1066 NNNNNNUNNNNNGNNNNNG AAA 4273 CNNNNNUNNNNNGNNNNNN A NNNNNNNC uu cacgaagucaauac
+structure Tile104 =(((((((( .... )))))))) (((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))) .. ..............
+Tile104.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE105*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNNN UUCG NNNNNNNN NNNNNNNN A 1857 NNNNNNUNNNNNGNNNNNG AAA 5415 CNNNNNUNNNNNGNNNNNN A NNNNNNNG uu cacgaagucaauac
+structure Tile105 =(((((((( .... )))))))) (((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))) .. ..............
+Tile105.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE106*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = GNNNNNNN UUCG NNNNNNNN NNNNNNNN A 2274 NNNNNNUNNNNNGNNNNNG AAA 6142 CNNNNNUNNNNNGNNNNNN A NNNNNNNC uu cacgaagucaauac
+structure Tile106 =(((((((( .... )))))))) (((((((( . .... ((((((((((((((((((( ... .... ))))))))))))))))))) . )))))))) .. ..............
+Tile106.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
+
+*******TILE107*******
+material = RNA
+temperature[C] = 37.0
+trials = 10
+sodium[M] = 1.0
+dangles = some
+allowmismatch = true
+domain a = CNNNNNNNN UUCG NNNNNNNNN NNNNNNNNN A AAUAAUA NNNNNNGNNNNNUNNNNNG AAA 2906 CNNNNNGNNNNNUNNNNNN A NNNNNNNNG uu cacgaagucaauac
+structure Tile107 =((((((((( .... ))))))))) ((((((((( . ....... ((((((((((((((((((( ... .... ))))))))))))))))))) . ))))))))) .. ..............
+Tile107.seq = a
+prevent = AAAA, CCCC, GGGG, UUUU, KKKKKK, MMMMMM, RRRRRR, SSSSSS, WWWWWW, YYYYYY
