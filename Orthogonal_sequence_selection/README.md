@@ -46,7 +46,7 @@ If you don’t give `--output`, it will write to: `RNAPool_9nt.txt` (one sequenc
 - **S = strong** = G or C
 - **W = weak**  = A or U
 
-3. **Base assignment** level: choose actual A/G/U/C consistent with that S/W pattern.
+2. **Base assignment** level: choose actual A/G/U/C consistent with that S/W pattern.
 
 For N = 9 the script enforces **exactly 4 S and 5 W**, so **every 9‑mer has 4 G/C and 5 A/U**.
 
@@ -73,7 +73,7 @@ For each resulting sequence `s` (length 9), it applies filters:
 1. **All four nucleotides must appear at least once**
 - `s` must contain **A, G, U, and C** somewhere.
 
-3. **Hairpin exclusion (for N ≥ 9, so yes for 9‑mers)**
+2. **Hairpin exclusion (for N ≥ 9, so yes for 9‑mers)**
 - It looks at the would‑be stem formed by the outer 3 pairs:
 - Pairs `s[0]–s[-1]`, `s[1]–s[-2]`, `s[2]–s[-3]`.
 
@@ -83,7 +83,7 @@ For each resulting sequence `s` (length 9), it applies filters:
 
 - If **all three** outer positions look pairable in either sense (`score ≥ 3` or `score_comp ≥ 3`), the sequence is **discarded** – it’s too hairpin‑like.
 
-5. **No internal “UUU” or mirrored “AAA”**
+3. **No internal “UUU” or mirrored “AAA”**
 - For positions `i = 2 ... N-3` (internal):
 - Reject if there is `U U U` at `s[i:i+3]`.
 - Reject if there is `A A A` at the **mirrored** positions at the 5′ side.
@@ -104,14 +104,14 @@ After pooling all candidates from all patterns, `refine_seq` applies four more r
 - It tracks the longest consecutive run for each group (K, M, R, Y).
    If **any group has length ≥ 6**, the sequence is **rejected**. → Roughly: no “6 bases in a row that all behave like purines, pyrimidines, etc.”
 
-3. `if_ends_ww` **– both ends weak? reject**
+2. `if_ends_ww` **– both ends weak? reject**
 - If both 5′ and 3′ ends are A/U (in any combination A/U vs A/U) the sequence is rejected.
 - Ensures **at least one end has a G or C**, which stabilises the designed KL and reduces problematic 3′/5′ fluff.
 
-5. `if_ends_3w` **– 3 weak bases at either end**
+3. `if_ends_3w` **– 3 weak bases at either end**
 - If positions 0–2 or positions N-3–N-1 are all A/U, reject.
 
-7. `if_ends_pair_u` **– more detailed end hairpin checks**
+4. `if_ends_pair_u` **– more detailed end hairpin checks**
 - For N ≥ 9, it looks for patterns like:
 - 5′ A at the start or 3′ U at the end,
 - short A‑rich segments at 5′ that could strongly pair with 3′,
@@ -160,7 +160,7 @@ With defaults you get:
 2. **Remove palindromes / self‑complementary sequences**
 - A sequence counts as “palindromic” if it is complementary to itself under the same rules used for pairwise complementarity (including GU wobble).
 
-4. **Remove sequences that conflict with guide sequences**For each guide:
+3. **Remove sequences that conflict with guide sequences**For each guide:
 - Generate all contiguous 9‑mers from the guide.
 - For each pool sequence, check if it is “too complementary” to **any** of those 9‑mers (with all reverse‑complement orientations).
 - If yes → discard the pool sequence.
@@ -195,19 +195,19 @@ Two sequences (or their RCs) are considered a **conflicting pair** if **any** of
 - at least **N–1 paired positions**, and
 - **> 2 GC pairs**.
 
-3. **Very long consecutive pairing**
+2. **Very long consecutive pairing**
 - Alignment has a **longest consecutive run ≥ N–1**, and
 - **> 1 GC pair** in that alignment.
 
-5. **Medium consecutive pairing**
+3. **Medium consecutive pairing**
 - Longest consecutive run ≥ **N–2**, and
 - **> 2 GC pairs**.
 
-7. **Shorter but GC‑rich**
+4. **Shorter but GC‑rich**
 - Longest consecutive run ≥ **N–3**, and
 - **≥ 4 GC pairs**.
 
-9. **Bulged pairing (N ≥ 9)**
+5. **Bulged pairing (N ≥ 9)**
 - There exists a **single‑bulge alignment** of length **N–1** between the two sequences (one base skipped on one strand) with **≥ 3 GC pairs**.
 
 For **N = 9** these thresholds are:
@@ -276,8 +276,8 @@ Algorithm:
 - `remaining = {0, 1, ..., n-1}` (all nodes),
 - `selected = []`.
 
-3. Optionally add a **seed** set of already‑independent nodes.
-4. While there are nodes remaining:
+2. Optionally add a **seed** set of already‑independent nodes.
+3. While there are nodes remaining:
 - Pick a random node `v` from `remaining`.
 - Add `v` to `selected`.
 - Remove `v` **and all its neighbors** from `remaining`.
