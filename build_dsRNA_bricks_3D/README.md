@@ -131,7 +131,7 @@ python -m function.build_dsRNA_Bricks_3D
 1. 2D map  
    `demo_3x5x4_118tile/3x5x4_118tile_2D_map.svg` shows KL pair assignment on all tiles and layers.
 
-   - [Open 2D map SVG](demo_3x5x4_118tile/3x5x4_118tile_2D_map.svg)
+   ![2D map SVG](demo_3x5x4_118tile/3x5x4_118tile_2D_map.svg)
 
 2. Tile structure output  
    `demo_3x5x4_118tile/3x5x4_118tile_tile_structure.txt` contains tile scaffold sequences (with `N` placeholders) and designed dot-bracket secondary structures after KL pair assignment.
