@@ -759,6 +759,15 @@ class MainWindow(QtWidgets.QMainWindow):  # type: ignore[misc]
             if type1_errors:
                 continue
 
+            # Type I blocked-loop length overrides requested by design rules.
+            if "h1" in blocked_h:
+                c3_len = 9
+            if "h2" in blocked_h:
+                c2_len = 9
+            drop_h4_c3 = "h1" in blocked_h and "h4" in blocked_h
+            if drop_h4_c3:
+                c3_len = 0
+
             try:
                 result = generate_l1_tile_rna(
                     c1_len=25,
@@ -770,6 +779,7 @@ class MainWindow(QtWidgets.QMainWindow):  # type: ignore[misc]
                     h4=h_loop["h4"],
                     seed=42 + tile_id,
                     blocked_h=blocked_h,
+                    drop_h4_c3=drop_h4_c3,
                 )
             except Exception as exc:
                 type1_errors.append(f"{self._tile_label.get(tile_id, str(tile_id))}: {exc}")
@@ -1303,6 +1313,34 @@ class MainWindow(QtWidgets.QMainWindow):  # type: ignore[misc]
             # Apply a small visual offset so labels sit in the line center.
             return y + font_size * 0.30
 
+        def fit_mid_text_x(
+            left_x: float,
+            left_text: str,
+            right_x: float,
+            right_text: str,
+            preferred_mid_x: float,
+            mid_text: str,
+            char_px: float,
+            min_gap: float = 10.0,
+        ) -> tuple[float, bool]:
+            """
+            Keep center text from overlapping left/right labels on the same line.
+            left_x/right_x are anchors used by start/end text respectively.
+            """
+            if not mid_text:
+                return (preferred_mid_x, True)
+            left_w = len(left_text) * char_px
+            right_w = len(right_text) * char_px
+            mid_w = len(mid_text) * char_px
+            left_end = left_x + left_w
+            right_start = right_x - right_w
+            min_mid = left_end + min_gap + mid_w / 2.0
+            max_mid = right_start - min_gap - mid_w / 2.0
+            if min_mid <= max_mid:
+                return (max(min_mid, min(preferred_mid_x, max_mid)), True)
+            # If not enough room, keep near geometric center of remaining span.
+            return ((left_end + right_start) / 2.0, False)
+
         seq_font_family = "Courier New, Courier, monospace"
         anno_font_family = seq_font_family
 
@@ -1523,6 +1561,12 @@ class MainWindow(QtWidgets.QMainWindow):  # type: ignore[misc]
                             if l_poly_points
                             else (frame_left, frame_right)
                         )
+                        # For triangle L tiles, force text anchors to the full frame width
+                        # (same x-reference style as square tiles).
+                        if is_l_triangle:
+                            top_left_x, top_right_x = frame_left, frame_right
+                            low_left_x, low_right_x = frame_left, frame_right
+                            name_left_x, name_right_x = frame_left, frame_right
                         top_pad = max(4.0, min(18.0, (top_right_x - top_left_x) * 0.03))
                         low_pad = max(4.0, min(18.0, (low_right_x - low_left_x) * 0.03))
                         is_trapezoid = rows == 5 and abs((top_right_x - top_left_x) - (low_right_x - low_left_x)) > 1.0
@@ -1597,21 +1641,39 @@ class MainWindow(QtWidgets.QMainWindow):  # type: ignore[misc]
                                     else (frame_left, frame_right)
                                 )
                                 svg.append(
-                                    f'<text x="{(r - ss_pad):.2f}" y="{text_center_y(ly, 12.0):.2f}" text-anchor="end" '
-                                    f'dominant-baseline="middle" font-family="{anno_font_family}" font-size="12" font-weight="bold" '
+                                    f'<text x="{(r - ss_pad):.2f}" y="{text_center_y(ly, 14.0):.2f}" text-anchor="end" '
+                                    f'dominant-baseline="middle" font-family="{anno_font_family}" font-size="14" font-weight="bold" '
                                     f'fill="#1f1f1f">SS</text>'
                                 )
                             top_bb = bb_text(c3_len)
                             if top_bb:
+                                top_bb_x, _top_bb_fits = fit_mid_text_x(
+                                    h1_x,
+                                    h1_seq,
+                                    h4_x,
+                                    h4_seq,
+                                    top_mid_x,
+                                    top_bb,
+                                    char_px=8.4,
+                                )
                                 svg.append(
-                                    f'<text x="{top_mid_x:.2f}" y="{top_line_y_12:.2f}" text-anchor="middle" '
+                                    f'<text x="{top_bb_x:.2f}" y="{top_line_y_12:.2f}" text-anchor="middle" '
                                     f'dominant-baseline="middle" font-family="{anno_font_family}" font-size="14" font-weight="bold" '
                                     f'fill="#1f1f1f">{escape(top_bb)}</text>'
                                 )
                             low_bb = bb_text(c2_len)
                             if low_bb:
+                                low_bb_x, _low_bb_fits = fit_mid_text_x(
+                                    h2_x,
+                                    h2_seq,
+                                    h3_x,
+                                    low_right_seq,
+                                    low_mid_x,
+                                    low_bb,
+                                    char_px=8.4,
+                                )
                                 svg.append(
-                                    f'<text x="{low_mid_x:.2f}" y="{low_line_y_12:.2f}" text-anchor="middle" '
+                                    f'<text x="{low_bb_x:.2f}" y="{low_line_y_12:.2f}" text-anchor="middle" '
                                     f'dominant-baseline="middle" font-family="{anno_font_family}" font-size="14" font-weight="bold" '
                                     f'fill="#1f1f1f">{escape(low_bb)}</text>'
                                 )
@@ -1622,15 +1684,26 @@ class MainWindow(QtWidgets.QMainWindow):  # type: ignore[misc]
                                 if l_poly_points
                                 else (frame_left, frame_right)
                             )
+                            if is_l_triangle:
+                                r2 = frame_right
                             svg.append(
-                                f'<text x="{(r2 - ss_pad):.2f}" y="{text_center_y(line2_y, 12.0):.2f}" text-anchor="end" '
-                                f'dominant-baseline="middle" font-family="{anno_font_family}" font-size="12" font-weight="bold" '
+                                f'<text x="{(r2 - ss_pad):.2f}" y="{text_center_y(line2_y, 14.0):.2f}" text-anchor="end" '
+                                f'dominant-baseline="middle" font-family="{anno_font_family}" font-size="14" font-weight="bold" '
                                 f'fill="#1f1f1f">SS</text>'
                             )
                             low_bb = bb_text(c2_len)
                             if low_bb:
+                                low_bb_x, _low_bb_fits = fit_mid_text_x(
+                                    h2_x,
+                                    h2_seq,
+                                    h3_x,
+                                    low_right_seq,
+                                    low_mid_x,
+                                    low_bb,
+                                    char_px=8.4,
+                                )
                                 svg.append(
-                                    f'<text x="{low_mid_x:.2f}" y="{low_line_y_12:.2f}" text-anchor="middle" '
+                                    f'<text x="{low_bb_x:.2f}" y="{low_line_y_12:.2f}" text-anchor="middle" '
                                     f'dominant-baseline="middle" font-family="{anno_font_family}" font-size="14" font-weight="bold" '
                                     f'fill="#1f1f1f">{escape(low_bb)}</text>'
                                 )
@@ -1678,13 +1751,13 @@ class MainWindow(QtWidgets.QMainWindow):  # type: ignore[misc]
                         bottom_marker_y = low_y - marker_pad_y
                         ss_x = frame_right - pad_x
                         top_y_12 = text_center_y(top_y, 14.0)
-                        mid_y_12 = text_center_y(mid_y, 12.0)
+                        mid_y_12 = text_center_y(mid_y, 14.0)
                         low_y_12 = text_center_y(low_y, 14.0)
                         name_y_16 = text_center_y(mid_y, 16.0)
 
                         svg.append(
                             f'<text x="{ss_x:.2f}" y="{mid_y_12:.2f}" text-anchor="end" '
-                            f'dominant-baseline="middle" font-family="{anno_font_family}" font-size="12" font-weight="bold" '
+                            f'dominant-baseline="middle" font-family="{anno_font_family}" font-size="14" font-weight="bold" '
                             f'fill="#1f1f1f">SS</text>'
                         )
 

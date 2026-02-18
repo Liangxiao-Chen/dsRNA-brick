@@ -184,8 +184,8 @@ CNNNNNNN UUCG NNNNNNNG CNNNNNNNA AGUAUGCAC NNNNNNNUNNNNNNC AAA CCUAGUAGU GNNNNNN
 (((((((( .... )))))))) ((((((((. ......... ((((((((((((((( ... ......... ))))))))))))))) .)))))))) .. ..............
 
 *******TILE_L3_0*******
-CNNNNNNUNNNNNNA GAUUCGAUG NNNNNNNUNNNNNNC GUAA GNNNNNNGNNNNNNN NNNNNNNGNNNNNNG CNNNNNNUNNNA GAAAGUCGU NNNNNNNUNNNNNNG AAA GGCUUAGUA CNNNNNNGNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
-((((((((((((((. ......... ((((((((((((((( .... ))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((( ... ......... ))))))))))))))) .))))))))))) .. ..............
+CNNNNNNUNNNNNNA GAUUCGAUG NNNNNNNNC GUAA GNNNNNNNN NNNNNNNGNNNNNNG CNNNNNNUNNNA GAAAGUCGU NNNNNNNUNNNNNNG AAA GGCUUAGUA CNNNNNNGNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((( .... ))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((( ... ......... ))))))))))))))) .))))))))))) .. ..............
 
 *******TILE_L3_1*******
 CNNNNNNUNNNNNNA GUAUGAACG NNNNNNNGNNNNNNC AAA GAUCCUUAC GNNNNNNUNNNNNNN ANNNNNNGNNNNNNG CNNNNNNGNNNA UGUCCAUUG NNNNNNNUNNNNNNG AAA UCUUCAGUC CNNNNNNGNNNNNNN ANNNUNNNNNNG UU CACGAAGUCAAUAC
@@ -208,8 +208,8 @@ CNNNNNNGNNNNNNN AAUAAUA NNNNNNNUNNNNNNNG AAA GCAUUCAUC CNNNNNNNGNNNNNNN ANNNNNNU
 ((((((((((((((. ....... (((((((((((((((( ... ......... )))))))))))))))) .)))))))))))))) (((((((((((. ....... (((((((((((((((( ... ......... )))))))))))))))) .))))))))))) .. ..............
 
 *******TILE_L3_6*******
-CNNNNNNUNNNNNNA GGCAUACAU NNNNNNNGNNNNNNG GUAA CNNNNNNUNNNNNNN NNNNNNNGNNNNNNG GNNNNNNGNNNA CUGAGUAAG NNNNNNNUNNNNNNG AAA UAGCUUACC CNNNNNNGNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
-((((((((((((((. ......... ((((((((((((((( .... ))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((( ... ......... ))))))))))))))) .))))))))))) .. ..............
+CNNNNNNUNNNNNNA GGCAUACAU NNNNNNNNG GUAA CNNNNNNNN NNNNNNNGNNNNNNG GNNNNNNGNNNA CUGAGUAAG NNNNNNNGNNNNNNG AAA UAGCUUACC CNNNNNNUNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((( .... ))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((( ... ......... ))))))))))))))) .))))))))))) .. ..............
 
 *******TILE_L3_7*******
 CNNNNNNUNNNNNNA ACUCCAUUG NNNNNNNUNNNNNNC AAA CCUAUGCUU GNNNNNNGNNNNNNN ANNNNNNGNNNNNNG GNNNNNNUNNNA CUAAGGUCA NNNNNNNGNNNNNNG AAA GAACUGGUU CNNNNNNUNNNNNNN ANNNGNNNNNNC UU CACGAAGUCAAUAC

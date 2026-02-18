@@ -116,9 +116,14 @@ def _build_segments(
     h4: str,
     handle: str,
     c1_split: int | None,
+    drop_h4_c3: bool = False,
 ) -> Tuple[List[Segment], int, int]:
-    if c2_len < 1 or c3_len < 1:
-        raise ValueError("c2 and c3 lengths must be >= 1.")
+    if c2_len < 1:
+        raise ValueError("c2 length must be >= 1.")
+    if not drop_h4_c3 and c3_len < 1:
+        raise ValueError("c3 length must be >= 1 unless h4/c3 are dropped.")
+    if drop_h4_c3 and c3_len < 0:
+        raise ValueError("c3 length must be >= 0 when h4/c3 are dropped.")
     c1a = _safe_c1_split(c1_len, c1_split)
     c1b = c1_len - c1a
     h1_n = _normalize_loop("h1", h1)
@@ -130,21 +135,29 @@ def _build_segments(
     # Type I domain order (5'->3'):
     # c1_1 -> h4 -> c3 -> h1 -> c3_r -> c1_1_r -> c1_2 -> h3 -> c2 -> h2 -> c2_r -> c1_2_r -> handle
     # Four unpaired A are fused into c1 segments, not emitted as separate regions.
-    segs = [
-        Segment("c1a_open", ("N" * c1a) + "A", ("(" * c1a) + "."),
-        Segment("h4", h4_n, "." * len(h4_n)),
-        Segment("c3_open", "N" * c3_len, "(" * c3_len),
-        Segment("h1", h1_n, "." * len(h1_n)),
-        Segment("c3_close", "N" * c3_len, ")" * c3_len),
-        Segment("c1a_close", "A" + ("N" * c1a), "." + (")" * c1a)),
-        Segment("c1b_open", ("N" * c1b) + "A", ("(" * c1b) + "."),
-        Segment("h3", h3_n, "." * len(h3_n)),
-        Segment("c2_open", "N" * c2_len, "(" * c2_len),
-        Segment("h2", h2_n, "." * len(h2_n)),
-        Segment("c2_close", "N" * c2_len, ")" * c2_len),
-        Segment("c1b_close", "A" + ("N" * c1b), "." + (")" * c1b)),
-        Segment("handle", handle_n, "." * len(handle_n)),
-    ]
+    segs = [Segment("c1a_open", ("N" * c1a) + "A", ("(" * c1a) + ".")]
+    if not drop_h4_c3:
+        segs.extend(
+            [
+                Segment("h4", h4_n, "." * len(h4_n)),
+                Segment("c3_open", "N" * c3_len, "(" * c3_len),
+            ]
+        )
+    segs.append(Segment("h1", h1_n, "." * len(h1_n)))
+    if not drop_h4_c3:
+        segs.append(Segment("c3_close", "N" * c3_len, ")" * c3_len))
+    segs.extend(
+        [
+            Segment("c1a_close", "A" + ("N" * c1a), "." + (")" * c1a)),
+            Segment("c1b_open", ("N" * c1b) + "A", ("(" * c1b) + "."),
+            Segment("h3", h3_n, "." * len(h3_n)),
+            Segment("c2_open", "N" * c2_len, "(" * c2_len),
+            Segment("h2", h2_n, "." * len(h2_n)),
+            Segment("c2_close", "N" * c2_len, ")" * c2_len),
+            Segment("c1b_close", "A" + ("N" * c1b), "." + (")" * c1b)),
+            Segment("handle", handle_n, "." * len(handle_n)),
+        ]
+    )
     return segs, c1a, c1b
 
 
@@ -162,6 +175,7 @@ def generate_l1_tile_rna(
     seed: int | None = None,
     c1_split: int | None = None,
     blocked_h: set[str] | None = None,
+    drop_h4_c3: bool = False,
 ) -> TileRNAResult:
     """
     Generate an L1-style RNA tile scaffold from helix lengths and loop sequences.
@@ -190,6 +204,7 @@ def generate_l1_tile_rna(
         h4=h4,
         handle=handle,
         c1_split=c1_split,
+        drop_h4_c3=drop_h4_c3,
     )
 
     offsets: Dict[str, Tuple[int, int]] = {}
@@ -224,16 +239,20 @@ def generate_l1_tile_rna(
     # First nucleotide must be C or G.
     sequence[0] = "C" if rng.random() < 0.5 else "G"
 
-    # Ligation constraints for c3 and c2.
-    c3_open_start, c3_open_end = offsets["c3_open"]
-    c2_open_start, c2_open_end = offsets["c2_open"]
-    c1b_close_start, c1b_close_end = offsets["c1b_close"]
-    c3_lig_i = c3_open_end - 1
+    # Ligation constraints for c3 (if present) and c2.
+    _c2_open_start, c2_open_end = offsets["c2_open"]
+    _c1b_close_start, c1b_close_end = offsets["c1b_close"]
+    c3_lig_i: int | None = None
     c2_lig_i = c2_open_end - 1
     c1_handle_i = c1b_close_end - 1
-    c3_a, c3_b = _pick_gc_pair(rng)
-    sequence[c3_lig_i] = c3_a
-    sequence[pairs[c3_lig_i]] = c3_b
+    c3_a: str | None = None
+    c3_b: str | None = None
+    if "c3_open" in offsets:
+        _c3_open_start, c3_open_end = offsets["c3_open"]
+        c3_lig_i = c3_open_end - 1
+        c3_a, c3_b = _pick_gc_pair(rng)
+        sequence[c3_lig_i] = c3_a
+        sequence[pairs[c3_lig_i]] = c3_b
     c2_a, c2_b = _pick_gc_pair(rng)
     sequence[c2_lig_i] = c2_a
     sequence[pairs[c2_lig_i]] = c2_b
@@ -246,13 +265,17 @@ def generate_l1_tile_rna(
     c1a_start, _c1a_end = offsets["c1a_open"]
     c1b_start, _c1b_end = offsets["c1b_open"]
     c2_start, c2_end = offsets["c2_open"]
-    c3_start, c3_end = offsets["c3_open"]
     c1a_open_indices = list(range(c1a_start, c1a_start + c1a))
     c1b_open_indices = list(range(c1b_start, c1b_start + c1b))
     c2_open_indices = list(range(c2_start, c2_end))
-    c3_open_indices = list(range(c3_start, c3_end))
+    c3_open_indices: list[int] = []
+    if "c3_open" in offsets:
+        c3_start, c3_end = offsets["c3_open"]
+        c3_open_indices = list(range(c3_start, c3_end))
     wobble_log: List[str] = []
-    ligation_locked = {c2_lig_i, c3_lig_i}
+    ligation_locked = {c2_lig_i}
+    if c3_lig_i is not None:
+        ligation_locked.add(c3_lig_i)
 
     def apply_wobbles(name: str, open_indices: Sequence[int]) -> None:
         total_bp = len(open_indices)
@@ -281,7 +304,8 @@ def generate_l1_tile_rna(
 
     apply_wobbles("c1_1", c1a_open_indices)
     apply_wobbles("c1_2", c1b_open_indices)
-    apply_wobbles("c3", c3_open_indices)
+    if c3_open_indices:
+        apply_wobbles("c3", c3_open_indices)
     apply_wobbles("c2", c2_open_indices)
 
     # Complement propagation for fixed paired positions.
@@ -311,10 +335,20 @@ def generate_l1_tile_rna(
 
     sequence_groups = [
         seq_lookup["c1a_open"],
-        seq_lookup["h4"],
-        seq_lookup["c3_open"],
-        *h1_parts,
-        seq_lookup["c3_close"],
+    ]
+    if "h4" in seq_lookup:
+        sequence_groups.append(seq_lookup["h4"])
+    if "c3_open" in seq_lookup:
+        sequence_groups.append(seq_lookup["c3_open"])
+    sequence_groups.extend(
+        [
+            *h1_parts,
+        ]
+    )
+    if "c3_close" in seq_lookup:
+        sequence_groups.append(seq_lookup["c3_close"])
+    sequence_groups.extend(
+        [
         seq_lookup["c1a_close"],
         seq_lookup["c1b_open"],
         seq_lookup["h3"],
@@ -323,15 +357,26 @@ def generate_l1_tile_rna(
         seq_lookup["c2_close"],
         seq_lookup["c1b_close"],
         *handle_parts,
-    ]
+        ]
+    )
 
     structure_groups = [
         ss_lookup["c1a_open"],
-        ss_lookup["h4"],
-        ss_lookup["c3_open"],
-        "." * len(h1_parts[0]),
-        "." * len(h1_parts[1]) if len(h1_parts) > 1 else "",
-        ss_lookup["c3_close"],
+    ]
+    if "h4" in ss_lookup:
+        structure_groups.append(ss_lookup["h4"])
+    if "c3_open" in ss_lookup:
+        structure_groups.append(ss_lookup["c3_open"])
+    structure_groups.extend(
+        [
+            "." * len(h1_parts[0]),
+            "." * len(h1_parts[1]) if len(h1_parts) > 1 else "",
+        ]
+    )
+    if "c3_close" in ss_lookup:
+        structure_groups.append(ss_lookup["c3_close"])
+    structure_groups.extend(
+        [
         ss_lookup["c1a_close"],
         ss_lookup["c1b_open"],
         ss_lookup["h3"],
@@ -342,7 +387,8 @@ def generate_l1_tile_rna(
         ss_lookup["c1b_close"],
         "." * len(handle_parts[0]),
         "." * len(handle_parts[1]) if len(handle_parts) > 1 else "",
-    ]
+        ]
+    )
     sequence_groups = [grp for grp in sequence_groups if grp]
     structure_groups = [grp for grp in structure_groups if grp]
 
@@ -353,7 +399,7 @@ def generate_l1_tile_rna(
         structure_spaced=" ".join(structure_groups),
         wobble_log=wobble_log,
         c2_ligation=f"{c2_a}-{c2_b}",
-        c3_ligation=f"{c3_a}-{c3_b}",
+        c3_ligation=f"{c3_a}-{c3_b}" if c3_a and c3_b else None,
     )
 
 
