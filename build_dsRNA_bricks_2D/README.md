@@ -191,6 +191,12 @@ python -m function.build_dsRNA_Bricks_3D
   - Single connected group only (no multiple closed groups).
 - `Generate sequence` writes all three output files and runs NUPACK with a progress dialog.
 
+## NUPACK Design Principles
+- RNA model with `some-nupack3` ensemble, at `37°C` and `1.0 M` sodium.
+- Soft pattern-avoidance (weight `1.0`) for: `A4`, `C4`, `G4`, `U4`, `K6`, `M6`, `R6`, `S6`, `W6`, `Y6`.
+- Sequence optimization stop condition: `f_stop = 0.02`.
+- Each tile design runs `3` rounds (trials), and the best result is selected.
+
 ## Reproducibility
 KL pair assignment uses fixed seed `42`, so with the same pool, `X/Y`, and selection, assignment is deterministic.
 
