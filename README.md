@@ -30,7 +30,7 @@ This repository provides an end-to-end workflow for dsRNA-brick design:
 Option A (Git):
 
 ```bash
-git clone <your-repo-url> dsRNA-brick
+git clone https://github.com/Liangxiao-Chen/dsRNA-brick.git dsRNA-brick
 cd dsRNA-brick
 ```
 
@@ -85,12 +85,6 @@ cd ../build_dsRNA_bricks_3D
 python build_dsRNA_Bricks_3D.py
 ```
 
-## Tile-Selection Rules (GUI)
-
-Before sequence generation, selected tiles must satisfy both conditions:
-
-- No flexible tiles: each selected tile has at least 2 interactions with other selected tiles.
-- Single connected group only: no multiple disconnected closed groups.
 
 ## Module Documentation
 
