@@ -4,13 +4,13 @@
 
 For N = 9 (our standard KL length), the pipeline is:
 
-1. `generate_pool_nnt.py` ([Download link](generate_pool_nnt.py))
+1. `generate_pool_nnt.py` 
    Generate a **raw** pool of “good” 9‑nt sequences with nice local properties
    → `RNAPool_9nt.txt`
-2. `build_rna_conflict_graphV2.py` ([Download link](build_rna_conflict_graphV2.py))
+2. `build_rna_conflict_graphV2.py` 
    Remove self‑complementary / guide‑complementary sequences and build a **conflict graph** that records which sequences are too complementary to each other
    → `FilteredPool_9nt_out.txt` + `ConflictGraph_9nt_edges_out.txt`
-3. `select_from_conflict_graph.py` ([Download link](select_from_conflict_graph.py))
+3. `select_from_conflict_graph.py` 
    On that graph, find a **large independent set** (a big subset of sequences that **do not** conflict with each other)
    → final orthogonal set, e.g. `SelectedPool_from_graph_out.txt`
 
