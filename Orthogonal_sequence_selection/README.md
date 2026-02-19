@@ -332,6 +332,8 @@ This final pool is what you feed into tile‑design scripts (2D/3D bricks), whic
 
 The **tile‑design scripts** expect a **KL pool file** where each non‑empty line has **at least two** RNA sequences, and they treat the **first column** as the 9‑nt bulge sequence.
 
+### How to run it (9‑nt example)
+
 To get a compatible pool file from the graph‑selected list, we run:
 
 
