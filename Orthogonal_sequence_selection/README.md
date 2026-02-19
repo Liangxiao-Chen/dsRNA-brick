@@ -326,7 +326,7 @@ The result is a **large, algorithmically optimized set of 9‑nt KL sequences** 
 - don’t bind strongly to the constant handle,
 - and are predicted not to bind strongly to each other in any orientation.
 
-### **Convert the selected pool by** `pool_rna_complement.py` **([Download link](https://www.dropbox.com/scl/fi/95uvzoltp6w05fdnmhy1y/pool_rna_complement.py?rlkey=n1vfwjkzu39k5zmxreq3a7ny3&dl=0)).**
+### **Convert the selected pool by** `pool_rna_complement.py` 
 
 This final pool is what you feed into tile‑design scripts (2D/3D bricks), which then assign one 9‑nt bulge (with its reverse‑complement loop) to each bKL edge in the structure.
 
