@@ -1,0 +1,428 @@
+
+*******TILE_Tile0*******
+GNNNNNNUNNNNNNA CUAGUGACA NNNNNNNUNNNNNNNGNC AAA GACGUAAGA GNUNNNNNNNGNNNNNNN ANNNNNNGNNNNNNC GNNNNNNGNNNA CAUGCAUAG NNNNNNNUNNNNNNNUNNNNNNNGNNNNNNNUNNNNNNNGNNNNNG AAA UCGAUCUAC CNNNNNUNNNNNNNGNNNNNNNUNNNNNNNGNNNNNNNGNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((((((((((((((((((((((((((((((( ... ......... )))))))))))))))))))))))))))))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile1*******
+CNNNNNNUNNNNNNA CCUUAGUUG NNNNNNNGNNNNNNNUNC AAA AACAGGAUG GNGNNNNNNNUNNNNNNN ANNNNNNGNNNNNNG CNNNNNNGNNNA GAUGUUAGC NNNNNNNGNNNNNNNUNNNNNNNUNNNNNNNUNNNNNNNUNNNNNC AAA GUACGUAUC GNNNNNGNNNNNNNGNNNNNNNGNNNNNNNGNNNNNNNUNNNNNNN ANNNUNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((((((((((((((((((((((((((((((( ... ......... )))))))))))))))))))))))))))))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile2*******
+CNNNNNNGNNNNNNA UCAGCUAAC NNNNNNNGNNNNNNNGNC AAA CAUGUGACU GNUNNNNNNNUNNNNNNN ANNNNNNUNNNNNNG GNNNNNNUNNNA CUUCACUGA NNNNNNNUNNNNNNNGNNNNNNNGNNNNNNNUNNNNNNNUNNNNNG AAA CUACAAUCG CNNNNNGNNNNNNNGNNNNNNNUNNNNNNNUNNNNNNNGNNNNNNN ANNNGNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((((((((((((((((((((((((((((((( ... ......... )))))))))))))))))))))))))))))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile3*******
+CNNNNNNGNNNNNNA AACCUCAAG NNNNNNNUNNNNNNNGNG AAA CAGUACUUC CNUNNNNNNNGNNNNNNN ANNNNNNUNNNNNNG CNNNNNNUNNNA UUCCAUUCG NNNNNNNUNNNNNNNUNNNNNNNUNNNNNNNUNNNNNNNUNNNNNC AAA GAAGUGACU GNNNNNGNNNNNNNGNNNNNNNGNNNNNNNGNNNNNNNGNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((((((((((((((((((((((((((((((( ... ......... )))))))))))))))))))))))))))))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile4*******
+GNNNNNNUNNNNNNA AGUAAGGUC NNNNNNNUNNNNNNNGNC AAA GAGACAUGA GNUNNNNNNNGNNNNNNN ANNNNNNGNNNNNNC GNNNNNNGNNNA UAGUACCAG NNNNNNNUNNNNNNNGNNNNNNNGNNNNNNNGNNNNNNNUNNNNNG AAA AAGGUAAGC CNNNNNGNNNNNNNUNNNNNNNUNNNNNNNUNNNNNNNGNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((((((((((((((((((((((((((((((( ... ......... )))))))))))))))))))))))))))))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile5*******
+GNNNNNNUNNNNNNA CAAUGCCUU NNNNNNNUNNNNNNNUNG AAA AAGCGUAAC CNGNNNNNNNGNNNNNNN ANNNNNNGNNNNNNC CNNNNNNUNNNA ACAGUUGAG NNNNNNNUNNNNNNNGNNNNNNNGNNNNNNNUNNNNNNNUNNNNNC AAA AUCAUGGUC GNNNNNGNNNNNNNGNNNNNNNUNNNNNNNUNNNNNNNGNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((((((((((((((((((((((((((((((( ... ......... )))))))))))))))))))))))))))))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile6*******
+GNNNNNNUNNNNNNA UACAUUCGC NNNNNNNGNNNNNNNUNC AAA CGAUACAUC GNGNNNNNNNUNNNNNNN ANNNNNNGNNNNNNC GNNNNNNGNNNA CUAUCAGGA NNNNNNNGNNNNNNNUNNNNNNNUNNNNNNNUNNNNNNNGNNNNNG AAA UGUCAACUC CNNNNNUNNNNNNNGNNNNNNNGNNNNNNNGNNNNNNNUNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((((((((((((((((((((((((((((((( ... ......... )))))))))))))))))))))))))))))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile7*******
+CNNNNNNUNNNNNNA AUGAACUGC NNNNNNNGNNNNNNNGNG AAA CUGAGUAAG CNUNNNNNNNUNNNNNNN ANNNNNNGNNNNNNG CNNNNNNUNNNN AAUAAUA NNNNNNNUNNNNNNNUNNNNNNNUNNNNNNNUNNNNNNNGNNNNNC AAA GAUAGUCCU GNNNNNUNNNNNNNGNNNNNNNGNNNNNNNGNNNNNNNGNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ....... (((((((((((((((((((((((((((((((((((((((((((((( ... ......... )))))))))))))))))))))))))))))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile8*******
+GNNNNNNUNNNNNNA CGUAUGAAC NNNNNNNNC GUAA GNNNNNNNN NNNNNNNGNNNNNNC GNNNNNNUNNNA AGCUAGAUG NNNNNNNNC UUCG GNNNNNNNN NNNNGNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((( .... ))))))))) .)))))))))))))) (((((((((((. ......... ((((((((( .... ))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile9*******
+GNNNNNNUNNNNNNA UGUACCUUC NNNNNNNGNNNNNNNGNNG AAA GUUAGAACG CNNUNNNNNNNUNNNNNNN ANNNNNNGNNNNNNC CNNNNNNUNNNA CUGCAUUCU NNNNNNNGNNNNNNNGNNC AAA GCAUACUUG GNNUNNNNNNNUNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile10*******
+CNNNNNNGNNNNNNA CUACCUUGA NNNNNNNGNNNNNNNGNNG AAA CUCAGACAA CNNUNNNNNNNUNNNNNNN ANNNNNNUNNNNNNG GNNNNNNUNNNA UUGUCCUAC NNNNNNNGNNNNNNNGNNG AAA GAUCACUGU CNNUNNNNNNNUNNNNNNN ANNNGNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile11*******
+CNNNNNNGNNNNNNA GUGAUCAAG NNNNNNNUNNNNNNNUNNC AAA UACUCUAGC GNNGNNNNNNNGNNNNNNN ANNNNNNUNNNNNNG GNNNNNNUNNNA GUACACUGA NNNNNNNUNNNNNNNGNNC AAA GGAAUCAAC GNNUNNNNNNNGNNNNNNN ANNNGNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile12*******
+CNNNNNNUNNNNNNA CAUCUAUGC NNNNNNNGNNNNNNNGNNG AAA GUCCUAAGA CNNUNNNNNNNUNNNNNNN ANNNNNNGNNNNNNG CNNNNNNUNNNA GUCAUGAAG NNNNNNNGNNNNNNNGNNC AAA AGUCGAUUG GNNUNNNNNNNUNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile13*******
+CNNNNNNGNNNNNNA ACACAUUCG NNNNNNNGNNNNNNNUNNG AAA CGCAAUGUU CNNGNNNNNNNUNNNNNNN ANNNNNNUNNNNNNG GNNNNNNGNNNA CUCUGUACU NNNNNNNGNNNNNNNGNNC AAA UUGGAGUUC GNNUNNNNNNNUNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile14*******
+GNNNNNNUNNNNNNA UCUCAAGUG NNNNNNNGNNNNNNNUNNC AAA CACUAUCUG GNNGNNNNNNNUNNNNNNN ANNNNNNGNNNNNNC GNNNNNNGNNNA UUCGCAUUG NNNNNNNUNNNNNNNUNNG AAA UCAUUCCAG CNNGNNNNNNNGNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile15*******
+GNNNNNNGNNNNNNA CCUAAGUUC NNNNNNNUNNNNNNNUNNC AAA GUCAUCUCU GNNGNNNNNNNGNNNNNNN ANNNNNNUNNNNNNC GNNNNNNGNNNA GCUAUGUAG NNNNNNNUNNNNNNNUNNG AAA GUUACGGAA CNNGNNNNNNNGNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile16*******
+CNNNNNNUNNNNNNA GUAGUUGUC NNNNNNNUNNNNNNNGNNC AAA UGAGGUAAC GNNUNNNNNNNGNNNNNNN ANNNNNNGNNNNNNG GNNNNNNUNNNA GACUCAUUC NNNNNNNUNNNNNNNGNNG AAA AUGUAAGCG CNNUNNNNNNNGNNNNNNN ANNNGNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile17*******
+CNNNNNNUNNNNNNN AAUAAUA NNNNNNNUNNNNNNNGNNG AAA CCUUGAAUG CNNUNNNNNNNGNNNNNNN ANNNNNNGNNNNNNG GNNNNNNUNNNN AAUAAUA NNNNNNNGNNNNNNNGNNC AAA UACUUGACG GNNUNNNNNNNUNNNNNNN ANNNGNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ....... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ....... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile18*******
+GNNNNNNGNNNNNNA CGAGAAUGU NNNNNNNGNNNNNNNGNC AAA CUAGACUUG GNUNNNNNNNUNNNNNNN ANNNNNNUNNNNNNC CNNNNNNUNNNA GAGUCUGUU NNNNNNNGNNNNNNNUNG AAA ACAUGGAAG CNGNNNNNNNUNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile19*******
+GNNNNNNUNNNNNNA GUCUCAAUC NNNNNNNUNNNNNNNUNG AAA AUCGUCAUC CNGNNNNNNNGNNNNNNN ANNNNNNGNNNNNNC CNNNNNNGNNNA AUGAGAUCG NNNNNNNGNNNNNNNUNC AAA GAUGGAACU GNGNNNNNNNUNNNNNNN ANNNUNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile20*******
+GNNNNNNGNNNNNNA CUACGUCAU NNNNNNNGNNNNNNNGNC AAA AUGUCGAUG GNUNNNNNNNUNNNNNNN ANNNNNNUNNNNNNC GNNNNNNUNNNA CAGGAUUCU NNNNNNNGNNNNNNNGNG AAA CACUAGUUC CNUNNNNNNNUNNNNNNN ANNNGNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile21*******
+GNNNNNNUNNNNNNA AUCAACAGG NNNNNNNGNNNNNNNGNG AAA CAGAGAUAC CNUNNNNNNNUNNNNNNN ANNNNNNGNNNNNNC GNNNNNNUNNNA GCGUUACAA NNNNNNNGNNNNNNNGNG AAA GUAGAUACG CNUNNNNNNNUNNNNNNN ANNNGNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile22*******
+CNNNNNNUNNNNNNA GUCCUAUCU NNNNNNNUNNNNNNNGNG AAA GCAAUCUUG CNUNNNNNNNGNNNNNNN ANNNNNNGNNNNNNG CNNNNNNUNNNA GUGAUAGAC NNNNNNNUNNNNNNNGNC AAA UGUGUAAGC GNUNNNNNNNGNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile23*******
+GNNNNNNGNNNNNNA CCUAGUAGU NNNNNNNGNNNNNNNGNG AAA CAUACGGAU CNUNNNNNNNUNNNNNNN ANNNNNNUNNNNNNC CNNNNNNGNNNA CAGUAGAGA NNNNNNNUNNNNNNNGNC AAA AGAGUUCAC GNUNNNNNNNGNNNNNNN ANNNUNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile24*******
+CNNNNNNGNNNNNNA GAUCUACCU NNNNNNNGNNNNNNNUNG AAA AGUAUGCAC CNGNNNNNNNUNNNNNNN ANNNNNNUNNNNNNG GNNNNNNUNNNA ACUCCAUUG NNNNNNNGNNNNNNNGNC AAA GGAUUCAAG GNUNNNNNNNUNNNNNNN ANNNGNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile25*******
+GNNNNNNGNNNNNNA CAUUGGCUA NNNNNNNUNNNNNNNGNG AAA GUUGAGACA CNUNNNNNNNGNNNNNNN ANNNNNNUNNNNNNC CNNNNNNGNNNA GGAACUUAC NNNNNNNUNNNNNNNUNC AAA CAUCAACAG GNGNNNNNNNGNNNNNNN ANNNUNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile26*******
+CNNNNNNUNNNNNNA AACUAUGCG NNNNNNNNG GUAA CNNNNNNNN NNNNNNNGNNNNNNG GNNNNNNUNNNA CAAUCUUGC NNNNNNNNC UUCG GNNNNNNNN NNNNGNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((( .... ))))))))) .)))))))))))))) (((((((((((. ......... ((((((((( .... ))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile27*******
+CNNNNNNUNNNNNNA AGUAGCAAG NNNNNNNUNNNNNNNUNNG AAA GGAUCAGAA CNNGNNNNNNNGNNNNNNN ANNNNNNGNNNNNNG CNNNNNNGNNNA GAUCUGAAC NNNNNNNUNNNNNNNGNNC AAA UUGAUACGC GNNUNNNNNNNGNNNNNNN ANNNUNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile28*******
+GNNNNNNGNNNNNNA GAGAACUGA NNNNNNNGNNNNNNNUNNC AAA GUACUUGAC GNNGNNNNNNNUNNNNNNN ANNNNNNUNNNNNNC GNNNNNNUNNNA UAGCAGUAG NNNNNNNGNNNNNNNUNNG AAA GCUCUUACA CNNGNNNNNNNUNNNNNNN ANNNGNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile29*******
+CNNNNNNUNNNNNNA CAGACUUGA NNNNNNNUNNNNNNNUNNG AAA CUACAGAAG CNNGNNNNNNNGNNNNNNN ANNNNNNGNNNNNNG GNNNNNNGNNNA UACAGCUAC NNNNNNNGNNNNNNNGNNG AAA CAGAGUUAG CNNUNNNNNNNUNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile30*******
+CNNNNNNUNNNNNNA CGAUGAUUC NNNNNNNUNNNNNNNUNNG AAA UCUAACCAG CNNGNNNNNNNGNNNNNNN ANNNNNNGNNNNNNG GNNNNNNGNNNA GUCUCUAUG NNNNNNNUNNNNNNNUNNG AAA GAUGCAGUA CNNGNNNNNNNGNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile31*******
+GNNNNNNGNNNNNNA CAGUCUAUC NNNNNNNUNNNNNNNUNNC AAA GCCAAUCAA GNNGNNNNNNNGNNNNNNN ANNNNNNUNNNNNNC CNNNNNNGNNNA CGUUAGAAC NNNNNNNGNNNNNNNUNNC AAA UAGUUGUCC GNNGNNNNNNNUNNNNNNN ANNNUNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile32*******
+CNNNNNNUNNNNNNA CGUACAAUC NNNNNNNUNNNNNNNGNNC AAA GUUUGACAG GNNUNNNNNNNGNNNNNNN ANNNNNNGNNNNNNG CNNNNNNUNNNA GUAUGCCUA NNNNNNNUNNNNNNNGNNG AAA CAGGAUAGA CNNUNNNNNNNGNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile33*******
+CNNNNNNGNNNNNNA CCGAAUCAU NNNNNNNUNNNNNNNGNNC AAA GCAUCUUCA GNNUNNNNNNNGNNNNNNN ANNNNNNUNNNNNNG CNNNNNNGNNNA UCAUACGUG NNNNNNNUNNNNNNNGNNG AAA GGAUCAUCA CNNUNNNNNNNGNNNNNNN ANNNUNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile34*******
+CNNNNNNUNNNNNNA GAACUUCGU NNNNNNNUNNNNNNNUNNG AAA CUAGACAAC CNNGNNNNNNNGNNNNNNN ANNNNNNGNNNNNNG CNNNNNNUNNNA CAACUCUGU NNNNNNNUNNNNNNNGNNG AAA CUAGAUGGA CNNUNNNNNNNGNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile35*******
+CNNNNNNUNNNNNNN AAUAAUA NNNNNNNUNNNNNNNGNNG AAA UUCGAACUC CNNUNNNNNNNGNNNNNNN ANNNNNNGNNNNNNG CNNNNNNUNNNN AAUAAUA NNNNNNNUNNNNNNNUNNC AAA GUAACCGAU GNNGNNNNNNNGNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ....... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ....... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile36*******
+CNNNNNNUNNNNNNA AGUAUCGUG NNNNNNNUNNNNNNNUNG AAA CUAACGCAU CNGNNNNNNNGNNNNNNN ANNNNNNGNNNNNNG CNNNNNNGNNNA CAUGAACUG NNNNNNNGNNNNNNNUNC AAA UCAUCGUUC GNGNNNNNNNUNNNNNNN ANNNUNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile37*******
+CNNNNNNGNNNNNNA GACAAUCAC NNNNNNNGNNNNNNNUNG AAA CUGACUGUA CNGNNNNNNNUNNNNNNN ANNNNNNUNNNNNNG CNNNNNNGNNNA GAUGUCUUC NNNNNNNUNNNNNNNGNG AAA CUCUUGACU CNUNNNNNNNGNNNNNNN ANNNUNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile38*******
+CNNNNNNUNNNNNNA UCUCUGAAG NNNNNNNGNNNNNNNGNG AAA GAUGACUUG CNUNNNNNNNUNNNNNNN ANNNNNNGNNNNNNG CNNNNNNUNNNA AGAUUGGUC NNNNNNNGNNNNNNNGNG AAA GUCUGAACU CNUNNNNNNNUNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile39*******
+CNNNNNNGNNNNNNA CUACUGUCU NNNNNNNUNNNNNNNUNC AAA GGAACAAUC GNGNNNNNNNGNNNNNNN ANNNNNNUNNNNNNG GNNNNNNGNNNA CGGUUAGUU NNNNNNNGNNNNNNNUNC AAA GCUACUAAG GNGNNNNNNNUNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile40*******
+GNNNNNNUNNNNNNA CUGAGAACU NNNNNNNGNNNNNNNUNG AAA UGGACUAAG CNGNNNNNNNUNNNNNNN ANNNNNNGNNNNNNC CNNNNNNUNNNA CAAACUGUC NNNNNNNUNNNNNNNUNC AAA GUCAGAUAG GNGNNNNNNNGNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile41*******
+CNNNNNNGNNNNNNA GAUUCGAUG NNNNNNNGNNNNNNNGNG AAA GUGUUAGUC CNUNNNNNNNUNNNNNNN ANNNNNNUNNNNNNG GNNNNNNUNNNA CGUAGAAGU NNNNNNNUNNNNNNNUNG AAA GCAUGUUAG CNGNNNNNNNGNNNNNNN ANNNGNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile42*******
+CNNNNNNGNNNNNNA CAUACACAG NNNNNNNUNNNNNNNUNC AAA AUCGAAUGG GNGNNNNNNNGNNNNNNN ANNNNNNUNNNNNNG CNNNNNNUNNNA GAUCUGUUG NNNNNNNGNNNNNNNUNG AAA GGCUUAGUA CNGNNNNNNNUNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile43*******
+CNNNNNNGNNNNNNA GCUCAAUGA NNNNNNNUNNNNNNNUNC AAA AUCCUGAUG GNGNNNNNNNGNNNNNNN ANNNNNNUNNNNNNG GNNNNNNUNNNA AAGCUUGAG NNNNNNNUNNNNNNNUNG AAA CUUGAAGCA CNGNNNNNNNGNNNNNNN ANNNGNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile44*******
+CNNNNNNGNNNNNNA AUCGCUUUC NNNNNNNNG GUAA CNNNNNNNN NNNNNNNUNNNNNNG GNNNNNNGNNNA CCUAGUCUU NNNNNNNNG UUCG CNNNNNNNN NNNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((( .... ))))))))) .)))))))))))))) (((((((((((. ......... ((((((((( .... ))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile45*******
+GNNNNNNGNNNNNNA AUGAUAGCG NNNNNNNGNNNNNNNGNNC AAA UUCCAGAAG GNNUNNNNNNNUNNNNNNN ANNNNNNUNNNNNNC CNNNNNNGNNNA GAUUGCGUA NNNNNNNUNNNNNNNUNNG AAA UAGCGAAAG CNNGNNNNNNNGNNNNNNN ANNNUNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile46*******
+CNNNNNNGNNNNNNA AUCAAUGCG NNNNNNNGNNNNNNNGNNC AAA GGAAGUAUC GNNUNNNNNNNUNNNNNNN ANNNNNNUNNNNNNG GNNNNNNUNNNA GACUGACAU NNNNNNNGNNNNNNNUNNG AAA UCAUAGCAC CNNGNNNNNNNUNNNNNNN ANNNGNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile47*******
+GNNNNNNGNNNNNNA GACGUAUGU NNNNNNNGNNNNNNNGNNG AAA GCUAUCCUU CNNUNNNNNNNUNNNNNNN ANNNNNNUNNNNNNC CNNNNNNUNNNA CUACUGAAC NNNNNNNUNNNNNNNGNNG AAA CUGUUAGUG CNNUNNNNNNNGNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile48*******
+CNNNNNNUNNNNNNA UGAUAGCAG NNNNNNNUNNNNNNNGNNG AAA UACCAGUUG CNNUNNNNNNNGNNNNNNN ANNNNNNGNNNNNNG GNNNNNNGNNNA CCUUGUUAG NNNNNNNGNNNNNNNGNNG AAA AGAGACUUC CNNUNNNNNNNUNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile49*******
+GNNNNNNGNNNNNNA CCUGUUCUA NNNNNNNGNNNNNNNGNNC AAA GUUCUCAUC GNNUNNNNNNNUNNNNNNN ANNNNNNUNNNNNNC CNNNNNNGNNNA ACCUGAUUC NNNNNNNUNNNNNNNUNNG AAA GAUGACAGA CNNGNNNNNNNGNNNNNNN ANNNUNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile50*******
+CNNNNNNGNNNNNNA AACUGCUUC NNNNNNNGNNNNNNNGNNG AAA ACUCUGAAG CNNUNNNNNNNUNNNNNNN ANNNNNNUNNNNNNG GNNNNNNUNNNA CACAAUCAG NNNNNNNUNNNNNNNGNNC AAA GACUCUUGA GNNUNNNNNNNGNNNNNNN ANNNGNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile51*******
+CNNNNNNUNNNNNNA CUGAGUAAG NNNNNNNUNNNNNNNUNNC AAA GAAAGUCGU GNNGNNNNNNNGNNNNNNN ANNNNNNGNNNNNNG CNNNNNNUNNNA UAGCUUACC NNNNNNNGNNNNNNNUNNG AAA CUAAGCUAC CNNGNNNNNNNUNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile52*******
+GNNNNNNGNNNNNNA CAGUAUGGU NNNNNNNGNNNNNNNGNNC AAA CUCUAAGGA GNNUNNNNNNNUNNNNNNN ANNNNNNUNNNNNNC GNNNNNNGNNNA UAGGACUAC NNNNNNNGNNNNNNNGNNG AAA GUAUGUGUC CNNUNNNNNNNUNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile53*******
+CNNNNNNGNNNNNNN AAUAAUA NNNNNNNUNNNNNNNGNNG AAA CGCUAAGUU CNNUNNNNNNNGNNNNNNN ANNNNNNUNNNNNNG GNNNNNNUNNNN AAUAAUA NNNNNNNGNNNNNNNGNNC AAA CGAGUUACU GNNUNNNNNNNUNNNNNNN ANNNGNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ....... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ....... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile54*******
+GNNNNNNGNNNNNNA GGAUGUAAC NNNNNNNUNNNNNNNGNC AAA GUCUUCGAA GNUNNNNNNNGNNNNNNN ANNNNNNUNNNNNNC CNNNNNNGNNNA CCUUCAUAG NNNNNNNGNNNNNNNUNG AAA UACUAUCGC CNGNNNNNNNUNNNNNNN ANNNUNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile55*******
+CNNNNNNGNNNNNNA CAUAGCUUC NNNNNNNGNNNNNNNGNG AAA CGCAUUCUA CNUNNNNNNNUNNNNNNN ANNNNNNUNNNNNNG GNNNNNNGNNNA CGAUAGGAA NNNNNNNGNNNNNNNUNG AAA UAGUUACGC CNGNNNNNNNUNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile56*******
+CNNNNNNUNNNNNNA CUUGUGAAC NNNNNNNUNNNNNNNUNG AAA CUGCAACUA CNGNNNNNNNGNNNNNNN ANNNNNNGNNNNNNG GNNNNNNGNNNA AUGGUCAAC NNNNNNNGNNNNNNNUNG AAA CUGCAUACA CNGNNNNNNNUNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile57*******
+GNNNNNNUNNNNNNA CUGAGUUAC NNNNNNNUNNNNNNNUNC AAA ACUCAGAUC GNGNNNNNNNGNNNNNNN ANNNNNNGNNNNNNC GNNNNNNGNNNA CAAGAGUAG NNNNNNNUNNNNNNNUNC AAA ACUAUCGUC GNGNNNNNNNGNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile58*******
+CNNNNNNUNNNNNNA UCAGGUUAC NNNNNNNUNNNNNNNGNC AAA AGGUCUAAC GNUNNNNNNNGNNNNNNN ANNNNNNGNNNNNNG GNNNNNNGNNNA UGAGACUUC NNNNNNNUNNNNNNNGNC AAA GGACAAGAU GNUNNNNNNNGNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile59*******
+GNNNNNNGNNNNNNA GAUCCUUAC NNNNNNNUNNNNNNNGNC AAA UGCUACUUC GNUNNNNNNNGNNNNNNN ANNNNNNUNNNNNNC GNNNNNNGNNNA CUUUCAGCA NNNNNNNUNNNNNNNUNG AAA UUGACGAAG CNGNNNNNNNGNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile60*******
+CNNNNNNGNNNNNNA GACAUGUUG NNNNNNNUNNNNNNNUNC AAA UCUUCAGUC GNGNNNNNNNGNNNNNNN ANNNNNNUNNNNNNG CNNNNNNUNNNA GAGAUUCCU NNNNNNNUNNNNNNNUNG AAA GACUCAUUC CNGNNNNNNNGNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile61*******
+CNNNNNNUNNNNNNA GCAUUCAUC NNNNNNNGNNNNNNNGNC AAA ACUCGUAAG GNUNNNNNNNUNNNNNNN ANNNNNNGNNNNNNG GNNNNNNGNNNA GCGAUUCAA NNNNNNNGNNNNNNNUNG AAA GUCAUACCA CNGNNNNNNNUNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile62*******
+CNNNNNNGNNNNNNA UGACAUAGG NNNNNNNNC GUAA GNNNNNNNN NNNNNNNUNNNNNNG GNNNNNNGNNNA AAGGUCUUC NNNNNNNNC UUCG GNNNNNNNN NNNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((( .... ))))))))) .)))))))))))))) (((((((((((. ......... ((((((((( .... ))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile63*******
+CNNNNNNUNNNNNNA GAUACUGUG NNNNNNNUNNNNNNNGNNG AAA UCAAUCGUG CNNUNNNNNNNGNNNNNNN ANNNNNNGNNNNNNG GNNNNNNUNNNA CAGAAGCUU NNNNNNNUNNNNNNNGNNG AAA ACUGUAUCC CNNUNNNNNNNGNNNNNNN ANNNGNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile64*******
+CNNNNNNGNNNNNNA GUAGUAACG NNNNNNNUNNNNNNNUNNG AAA CAUCAUUGC CNNGNNNNNNNGNNNNNNN ANNNNNNUNNNNNNG CNNNNNNUNNNA GCGUAAGAU NNNNNNNUNNNNNNNGNNC AAA CCUACAUUG GNNUNNNNNNNGNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile65*******
+GNNNNNNGNNNNNNA CUCAUAGGA NNNNNNNUNNNNNNNUNNC AAA GUAAGACGU GNNGNNNNNNNGNNNNNNN ANNNNNNUNNNNNNC CNNNNNNUNNNA GACGUUGAU NNNNNNNGNNNNNNNUNNC AAA GUAUCGAAG GNNGNNNNNNNUNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile66*******
+GNNNNNNGNNNNNNA AGAUCUCUG NNNNNNNUNNNNNNNGNNG AAA GGUGAAUCA CNNUNNNNNNNGNNNNNNN ANNNNNNUNNNNNNC GNNNNNNUNNNA UGAGUCUAG NNNNNNNGNNNNNNNGNNC AAA GAACACUUG GNNUNNNNNNNUNNNNNNN ANNNGNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile67*******
+CNNNNNNUNNNNNNA GUCAGAAUC NNNNNNNGNNNNNNNGNNC AAA GAUUGUUCG GNNUNNNNNNNUNNNNNNN ANNNNNNGNNNNNNG GNNNNNNGNNNA UCCAGAUUG NNNNNNNUNNNNNNNGNNC AAA GACUCAAUG GNNUNNNNNNNGNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile68*******
+GNNNNNNUNNNNNNA GACUUGAAC NNNNNNNGNNNNNNNGNNG AAA GUACUGUAG CNNUNNNNNNNUNNNNNNN ANNNNNNGNNNNNNC GNNNNNNGNNNA ACGAUGAAG NNNNNNNUNNNNNNNUNNC AAA AGUCCAAUG GNNGNNNNNNNGNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile69*******
+CNNNNNNUNNNNNNA UGUCCAUUG NNNNNNNGNNNNNNNUNNG AAA CCGUAUGUA CNNGNNNNNNNUNNNNNNN ANNNNNNGNNNNNNG GNNNNNNGNNNA AGAAGUCAG NNNNNNNGNNNNNNNUNNG AAA CUAGGAAUG CNNGNNNNNNNUNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile70*******
+GNNNNNNGNNNNNNA CCAUAGGUU NNNNNNNUNNNNNNNGNNC AAA GCAGUUGAA GNNUNNNNNNNGNNNNNNN ANNNNNNUNNNNNNC GNNNNNNGNNNA UGAGCAUUC NNNNNNNUNNNNNNNUNNC AAA CUGUACAAC GNNGNNNNNNNGNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile71*******
+CNNNNNNUNNNNNNN AAUAAUA NNNNNNNGNNNNNNNUNNC AAA AGAGCAUUC GNNGNNNNNNNUNNNNNNN ANNNNNNGNNNNNNG GNNNNNNGNNNN AAUAAUA NNNNNNNUNNNNNNNUNNC AAA CGUAAGUAG GNNGNNNNNNNGNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ....... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ....... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile72*******
+GNNNNNNGNNNNNNA GUCUGAUGA NNNNNNNUNNNNNNNGNG AAA GCAUUGUGA CNUNNNNNNNGNNNNNNN ANNNNNNUNNNNNNC GNNNNNNUNNNA GUAGUAACG NNNNNNNGNNNNNNNUNG AAA CUAUGACAC CNGNNNNNNNUNNNNNNN ANNNGNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile73*******
+CNNNNNNUNNNNNNA CAACUGGAU NNNNNNNUNNNNNNNUNC AAA AAGAUGCUG GNGNNNNNNNGNNNNNNN ANNNNNNGNNNNNNG GNNNNNNUNNNA CAUUCUGCA NNNNNNNUNNNNNNNGNG AAA CAUCAUUGC CNUNNNNNNNGNNNNNNN ANNNGNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile74*******
+CNNNNNNUNNNNNNA UAGAUCCAG NNNNNNNUNNNNNNNUNC AAA GAACUAAGG GNGNNNNNNNGNNNNNNN ANNNNNNGNNNNNNG GNNNNNNGNNNA CCACUUAGU NNNNNNNGNNNNNNNGNG AAA GAGUAUCCU CNUNNNNNNNUNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile75*******
+GNNNNNNUNNNNNNA GGUAAGAAC NNNNNNNGNNNNNNNGNC AAA GAUGUAUCG GNUNNNNNNNUNNNNNNN ANNNNNNGNNNNNNC CNNNNNNUNNNA CUAACAAGC NNNNNNNGNNNNNNNUNG AAA UCUAGAGAC CNGNNNNNNNUNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile76*******
+GNNNNNNGNNNNNNA UCACGUUAG NNNNNNNGNNNNNNNGNG AAA GUUCACUCA CNUNNNNNNNUNNNNNNN ANNNNNNUNNNNNNC CNNNNNNUNNNA CAUGACAUC NNNNNNNUNNNNNNNUNC AAA CAGUCUUAG GNGNNNNNNNGNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile77*******
+GNNNNNNUNNNNNNA CCUAUGCUU NNNNNNNUNNNNNNNGNG AAA GAAUCGCAU CNUNNNNNNNGNNNNNNN ANNNNNNGNNNNNNC CNNNNNNUNNNA GGCAUACAU NNNNNNNUNNNNNNNGNC AAA CUGAACUUG GNUNNNNNNNGNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile78*******
+CNNNNNNUNNNNNNA AUGUGUCUC NNNNNNNGNNNNNNNUNC AAA CUUGACCAA GNGNNNNNNNUNNNNNNN ANNNNNNGNNNNNNG CNNNNNNUNNNA CGUCAACUU NNNNNNNGNNNNNNNGNG AAA ACAGGUAAC CNUNNNNNNNUNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile79*******
+CNNNNNNUNNNNNNA GUAUGACCU NNNNNNNUNNNNNNNUNG AAA CACAGUUUC CNGNNNNNNNGNNNNNNN ANNNNNNGNNNNNNG CNNNNNNUNNNA UCUCGUAAG NNNNNNNUNNNNNNNUNG AAA GGUAUCCAA CNGNNNNNNNGNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile80*******
+GNNNNNNGNNNNNNA UAGAGUGAC NNNNNNNNC GUAA GNNNNNNNN NNNNNNNUNNNNNNC CNNNNNNUNNNA AGUUAGCAC NNNNNNNNG UUCG CNNNNNNNN NNNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((( .... ))))))))) .)))))))))))))) (((((((((((. ......... ((((((((( .... ))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile81*******
+CNNNNNNGNNNNNNA CUAGUGAAG NNNNNNNUNNNNNNNUNNG AAA GGUCUUGUA CNNGNNNNNNNGNNNNNNN ANNNNNNUNNNNNNG CNNNNNNGNNNA CGUAACACU NNNNNNNUNNNNNNNUNNC AAA AUCUCACUG GNNGNNNNNNNGNNNNNNN ANNNUNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile82*******
+CNNNNNNUNNNNNNA UACGUCUUG NNNNNNNGNNNNNNNUNNC AAA UCUCGAUAC GNNGNNNNNNNUNNNNNNN ANNNNNNGNNNNNNG GNNNNNNUNNNA UUCUACGAC NNNNNNNUNNNNNNNGNNG AAA CAGACUACU CNNUNNNNNNNGNNNNNNN ANNNGNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile83*******
+GNNNNNNUNNNNNNA AUCUCUAGC NNNNNNNUNNNNNNNUNNC AAA GACACUAAC GNNGNNNNNNNGNNNNNNN ANNNNNNGNNNNNNC GNNNNNNGNNNA CUUGAUUCC NNNNNNNUNNNNNNNGNNC AAA GUUGACCUA GNNUNNNNNNNGNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile84*******
+CNNNNNNUNNNNNNA CAGGUAAGA NNNNNNNGNNNNNNNUNNC AAA GUGACAAUG GNNGNNNNNNNUNNNNNNN ANNNNNNGNNNNNNG CNNNNNNUNNNA CUACAUAGC NNNNNNNUNNNNNNNUNNC AAA AUCUAGGUC GNNGNNNNNNNGNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile85*******
+CNNNNNNGNNNNNNA CAAAGAUGG NNNNNNNGNNNNNNNUNNG AAA CUGUUCACU CNNGNNNNNNNUNNNNNNN ANNNNNNUNNNNNNG CNNNNNNUNNNA CAAGUGAGU NNNNNNNUNNNNNNNUNNG AAA CCAUUCUUG CNNGNNNNNNNGNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile86*******
+CNNNNNNGNNNNNNA CAUAGUACC NNNNNNNUNNNNNNNUNNG AAA UGUAUCACC CNNGNNNNNNNGNNNNNNN ANNNNNNUNNNNNNG CNNNNNNGNNNA CUUAGCGUA NNNNNNNUNNNNNNNUNNC AAA AGUGCAAUC GNNGNNNNNNNGNNNNNNN ANNNUNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile87*******
+CNNNNNNUNNNNNNA CUAAGGUCA NNNNNNNGNNNNNNNUNNC AAA GUAUGAACG GNNGNNNNNNNUNNNNNNN ANNNNNNGNNNNNNG CNNNNNNGNNNA GAACUGGUU NNNNNNNUNNNNNNNGNNG AAA GGAUACGAA CNNUNNNNNNNGNNNNNNN ANNNUNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile88*******
+GNNNNNNUNNNNNNA AGAUCAGAG NNNNNNNGNNNNNNNGNNG AAA GGAUGUCAU CNNUNNNNNNNUNNNNNNN ANNNNNNGNNNNNNC CNNNNNNGNNNA GUGUCAAAG NNNNNNNGNNNNNNNGNNG AAA UACACAGAG CNNUNNNNNNNUNNNNNNN ANNNUNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile89*******
+CNNNNNNUNNNNNNN AAUAAUA NNNNNNNUNNNNNNNUNNC AAA UGUGGAUUC GNNGNNNNNNNGNNNNNNN ANNNNNNGNNNNNNG CNNNNNNGNNNN AAUAAUA NNNNNNNGNNNNNNNGNNG AAA CAUACUGGA CNNUNNNNNNNUNNNNNNN ANNNUNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ....... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))))))))) (((((((((((. ....... ((((((((((((((((((( ... ......... ))))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile90*******
+GNNNNNNGNNNNNNA UAGGUACUC NNNNNNNGNNNNNNNGNC AAA CGUACUCAU GNUNNNNNNNUNNNNNNN ANNNNNNUNNNNNNC CNNNNNNUNNNA AGAGCUAUG NNNNNNNGNNNNNNNUNG AAA GAUCACUUC CNGNNNNNNNUNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile91*******
+GNNNNNNGNNNNNNA UAGCCAUUC NNNNNNNUNNNNNNNGNC AAA GAUUCUCAG GNUNNNNNNNGNNNNNNN ANNNNNNUNNNNNNC GNNNNNNGNNNA CUGUGAUUG NNNNNNNGNNNNNNNGNG AAA AUGCAGAAC CNUNNNNNNNUNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile92*******
+GNNNNNNUNNNNNNA CGGAAUGAU NNNNNNNUNNNNNNNUNC AAA CAUGAGAGU GNGNNNNNNNGNNNNNNN ANNNNNNGNNNNNNC GNNNNNNUNNNA CACUGUUAC NNNNNNNUNNNNNNNUNC AAA UAGAGAUCG GNGNNNNNNNGNNNNNNN ANNNGNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile93*******
+GNNNNNNUNNNNNNA CGAGUAGAU NNNNNNNGNNNNNNNUNC AAA CCAUUGGAA GNGNNNNNNNUNNNNNNN ANNNNNNGNNNNNNC CNNNNNNUNNNA GACAAGUGA NNNNNNNGNNNNNNNGNG AAA GUCCAUUCU CNUNNNNNNNUNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile94*******
+GNNNNNNUNNNNNNA GAGUCAUUG NNNNNNNUNNNNNNNUNC AAA AGUACGUUG GNGNNNNNNNGNNNNNNN ANNNNNNGNNNNNNC GNNNNNNGNNNA ACAUAGUGG NNNNNNNGNNNNNNNUNG AAA GUUUCUACC CNGNNNNNNNUNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile95*******
+GNNNNNNUNNNNNNA GAUACAAGG NNNNNNNGNNNNNNNGNC AAA UACCGAUUC GNUNNNNNNNUNNNNNNN ANNNNNNGNNNNNNC CNNNNNNGNNNA CAUACUUGC NNNNNNNUNNNNNNNUNG AAA GUAUCAUGG CNGNNNNNNNGNNNNNNN ANNNUNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile96*******
+GNNNNNNUNNNNNNA UGAGCAAUG NNNNNNNGNNNNNNNUNG AAA CUAUCUACG CNGNNNNNNNUNNNNNNN ANNNNNNGNNNNNNC GNNNNNNGNNNA CCUACAGUA NNNNNNNGNNNNNNNUNG AAA GAUUCCAGU CNGNNNNNNNUNNNNNNN ANNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile97*******
+GNNNNNNGNNNNNNN AAUAAUA NNNNNNNGNNNNNNNGNC AAA UACGAGUAG GNUNNNNNNNUNNNNNNN ANNNNNNUNNNNNNC CNNNNNNUNNNA ACACCUAAG NNNNNNNUNNNNNNNUNC AAA UCUAGUCUC GNGNNNNNNNGNNNNNNN ANNNGNNNNNNG UU CACGAAGUCAAUAC
+((((((((((((((. ....... (((((((((((((((((( ... ......... )))))))))))))))))) .)))))))))))))) (((((((((((. ......... (((((((((((((((((( ... ......... )))))))))))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile98*******
+CNNNNNNUNNNNNNA UUGUACUCG NNNNNNNNC GUAA GNNNNNNNN NNNNNNNGNNNNNNG GNNNNNNGNNNA CCAGAACAU NNNNNNNNC UUCG GNNNNNNNN NNNNUNNNNNNC UU CACGAAGUCAAUAC
+((((((((((((((. ......... ((((((((( .... ))))))))) .)))))))))))))) (((((((((((. ......... ((((((((( .... ))))))))) .))))))))))) .. ..............
+
+*******TILE_Tile99*******
+GNNNNNNN UUCG NNNNNNNC CNNNNNNNA GCAUGAGUA NNNNNNNGNNNNNNNUNNC AAA AACAUGAGC GNNGNNNNNNNUNNNNNNN ANNNNNNNG UU CACGAAGUCAAUAC
+(((((((( .... )))))))) ((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))) .. ..............
+
+*******TILE_Tile100*******
+GNNNNNNN UUCG NNNNNNNC GNNNNNNNA CUAAGAGUC NNNNNNNGNNNNNNNGNNG AAA AUCCAUGAG CNNUNNNNNNNUNNNNNNN ANNNNNNNC UU CACGAAGUCAAUAC
+(((((((( .... )))))))) ((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))) .. ..............
+
+*******TILE_Tile101*******
+GNNNNNNN UUCG NNNNNNNC GNNNNNNNA GUACUCUCA NNNNNNNGNNNNNNNGNNG AAA AUCGGUAAG CNNUNNNNNNNUNNNNNNN ANNNNNNNC UU CACGAAGUCAAUAC
+(((((((( .... )))))))) ((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))) .. ..............
+
+*******TILE_Tile102*******
+CNNNNNNN UUCG NNNNNNNG CNNNNNNNA GGUAACCUU NNNNNNNUNNNNNNNUNNC AAA GCCUUACUA GNNGNNNNNNNGNNNNNNN ANNNNNNNG UU CACGAAGUCAAUAC
+(((((((( .... )))))))) ((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))) .. ..............
+
+*******TILE_Tile103*******
+GNNNNNNN UUCG NNNNNNNC CNNNNNNNA UCAUGCAAC NNNNNNNGNNNNNNNGNNG AAA GCUCAUCUA CNNUNNNNNNNUNNNNNNN ANNNNNNNG UU CACGAAGUCAAUAC
+(((((((( .... )))))))) ((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))) .. ..............
+
+*******TILE_Tile104*******
+CNNNNNNN UUCG NNNNNNNG CNNNNNNNA AUGGCUAAG NNNNNNNGNNNNNNNUNNG AAA CUCAGUAAC CNNGNNNNNNNUNNNNNNN ANNNNNNNG UU CACGAAGUCAAUAC
+(((((((( .... )))))))) ((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))) .. ..............
+
+*******TILE_Tile105*******
+GNNNNNNN UUCG NNNNNNNC CNNNNNNNA GAUAGAUGC NNNNNNNGNNNNNNNGNNC AAA CUAUGUUCC GNNUNNNNNNNUNNNNNNN ANNNNNNNG UU CACGAAGUCAAUAC
+(((((((( .... )))))))) ((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))) .. ..............
+
+*******TILE_Tile106*******
+CNNNNNNN UUCG NNNNNNNG CNNNNNNNA AUGCUCAUC NNNNNNNGNNNNNNNUNNG AAA ACUCGUUAC CNNGNNNNNNNUNNNNNNN ANNNNNNNG UU CACGAAGUCAAUAC
+(((((((( .... )))))))) ((((((((. ......... ((((((((((((((((((( ... ......... ))))))))))))))))))) .)))))))) .. ..............

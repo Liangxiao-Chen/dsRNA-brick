@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Generated outputs
+*_generated_sequence.txt
+*_generated_sequence1.txt
+*_generated_sequence2.txt
+*_generated_sequence_nupack_output.txt
+*_KL.txt
+*_KL_visual.txt
+*_KL_map.tsv
+
+# Optional local exports
+L_1_2D_map.txt
