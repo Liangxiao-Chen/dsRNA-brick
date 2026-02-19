@@ -119,6 +119,11 @@ python -m function.build_dsRNA_Bricks_3D
 4. Select tiles  
    Select/deselect from either the 3D view or 2D map. Selection is synchronized and shown in the right-side list.
 
+   Selection rules before sequence generation:
+
+   - No flexible tiles: each selected tile must have at least 2 interactions with other selected tiles.
+   - Single connected group only: selected tiles must form one connected component (no multiple closed groups).
+
    ![Selected tile list](docs/Figure/118_selected_tile_list.png)
 
 5. Generate sequence  
@@ -192,7 +197,10 @@ python -m function.build_dsRNA_Bricks_3D
 
 ## Sequence Generation Notes
 - Generation uses selected tiles only.
-- Validation checks include KL pair pool availability, structure closure, and selected-tile connectivity.
+- Validation checks include:
+  - KL pair pool availability.
+  - No flexible tiles: each selected tile must have at least 2 interactions.
+  - Single connected group only (no multiple closed groups).
 - `Generate sequence` exports the three output files listed above and runs NUPACK with a progress dialog.
 
 ## Reproducibility
