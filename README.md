@@ -1,64 +1,114 @@
 # dsRNA-brick
 
-An end-to-end workflow for designing **2D dsRNA brick (C-tile) RNA nanostructures**, including:
+This repository provides an end-to-end workflow for dsRNA-brick design:
 
-1) **Orthogonal KL pool selection** (sequence filtering → conflict graph → independent set)  
-2) **2D structure design** (GUI-based lattice/shape design and file export)  
-3) **NUPACK sequence design** (multi-tile design workflow and result export)
+1. Build an orthogonal KL sequence pool.
+2. Build/select lattice structures in 2D or 3D GUI.
+3. Generate tile sequences for downstream design workflows.
 
----
+## Repository Modules
 
-## Table of Contents
+- `Orthogonal_sequence_selection/`
+  - KL candidate generation, conflict-graph construction, and independent-set selection.
+  - Entry scripts:
+    - `generate_pool_nnt.py`
+    - `build_rna_conflict_graphV2.py`
+    - `select_from_conflict_graph.py`
 
-- [Workflow overview](#workflow-overview)
-- [Repository structure](#repository-structure)
-- [License](#license)
+- `build_dsRNA_bricks_2D/`
+  - 2D lattice GUI (`X`, `Y`) with synchronized model/XY map tile selection.
+  - Integrated sequence-generation pipeline.
 
----
+- `build_dsRNA_bricks_3D/`
+  - 3D lattice GUI (`X`, `Y`, `Z`) with synchronized 3D/layered-map tile selection.
+  - Integrated sequence-generation pipeline.
 
-## Workflow overview
+## Quick Start
 
-### Step 1 — Orthogonal sequence selection
-Generate a candidate KL pool, remove self-/guide-complementary sequences, build a **conflict graph**, and select a **large independent set** as the final orthogonal KL pool.
+### 1. Download the code
 
-**Typical output:**
-- `SelectedPool_from_graph_out.txt` (final orthogonal KL pool)
+Option A (Git):
 
-### Step 2 — 2D structure design (GUI)
-Use a GUI to define the lattice size (**X cols**, **Y rows**) and interactively select an arbitrary 2D shape (tiles). Export design files for downstream sequence design and documentation.
+```bash
+git clone <your-repo-url> dsRNA-brick
+cd dsRNA-brick
+```
 
-**Typical outputs:**
-- `*_KL.txt` — KL pairing relationships in the generated structure  
-- `*_NUPACK.txt` — input text for NUPACK sequence design  
-- `*.txt` — per-tile information (tile geometry and secondary structure)
+Option B (ZIP):
 
-### Step 3 — NUPACK sequence design
-Run NUPACK-based multi-tile sequence design using the exported structure/tile definitions. The workflow runs multiple trials per tile, selects the best result, and writes a consolidated output (e.g., `Output_sequence`).
+1. Download ZIP from GitHub.
+2. Unzip it.
+3. Open terminal in the unzipped `dsRNA-brick` folder.
 
----
+### 2. Set up Python environment
 
-## Repository structure
+```bash
+conda create -n dsrna python=3.12 -y
+conda activate dsrna
+pip install "pyside6==6.9.*" numpy pyvista pyvistaqt vtk
+```
 
-- `Orthogonal_sequence_selection/`  
-  Scripts and outputs for KL pool generation, conflict-graph construction, and orthogonal pool selection.  
-  See: [`Orthogonal_sequence_selection/README.md`](Orthogonal_sequence_selection/README.md)
+Install/configure NUPACK separately using official documentation:
 
-- `build_dsRNA_bricks/`  
-  GUI tool for designing 2D dsRNA brick lattices and exporting structure files for downstream design.  
-  See: [`build_dsRNA_bricks/README.md`](build_dsRNA_bricks/README.md)
+- [https://docs.nupack.org/](https://docs.nupack.org/)
 
-- `NUPACK_design/`  
-  NUPACK multi-tile design workflow (notebooks/scripts + documentation).  
-  See: [`NUPACK_design/README.md`](NUPACK_design/README.md)
+### 3. Run orthogonal sequence selection
 
----
+```bash
+cd Orthogonal_sequence_selection
+python generate_pool_nnt.py 9
+python build_rna_conflict_graphV2.py --num-nt 9 --input RNAPool_9nt.txt
+python select_from_conflict_graph.py \
+  --seq-file FilteredPool_9nt_out.txt \
+  --graph-file ConflictGraph_9nt_edges_out.txt \
+  --rounds 1000
+```
+
+Main outputs:
+
+- `RNAPool_9nt.txt`
+- `FilteredPool_9nt_out.txt`
+- `ConflictGraph_9nt_edges_out.txt`
+- `SelectedPool_from_graph_out.txt`
+
+### 4. Run the 2D GUI
+
+```bash
+cd ../build_dsRNA_bricks_2D
+python build_dsRNA_Bricks_2D.py
+```
+
+### 5. Run the 3D GUI
+
+```bash
+cd ../build_dsRNA_bricks_3D
+python build_dsRNA_Bricks_3D.py
+```
+
+## Tile-Selection Rules (GUI)
+
+Before sequence generation, selected tiles must satisfy both conditions:
+
+- No flexible tiles: each selected tile has at least 2 interactions with other selected tiles.
+- Single connected group only: no multiple disconnected closed groups.
+
+## Module Documentation
+
+- Orthogonal selection: [`Orthogonal_sequence_selection/README.md`](Orthogonal_sequence_selection/README.md)
+- 2D GUI: [`build_dsRNA_bricks_2D/README.md`](build_dsRNA_bricks_2D/README.md)
+- 3D GUI: [`build_dsRNA_bricks_3D/README.md`](build_dsRNA_bricks_3D/README.md)
+
+## Repository Structure
+
+```text
+dsRNA-brick/
+├── Orthogonal_sequence_selection/
+├── build_dsRNA_bricks_2D/
+├── build_dsRNA_bricks_3D/
+├── LICENSE
+└── README.md
+```
 
 ## License
 
-This project is released under the **MIT License** (see `LICENSE`).
-
----
-
-### Repo hygiene note (recommended)
-If you see `.DS_Store` committed (macOS artifact), remove it and add it to `.gitignore` to prevent future commits:
-- Add a line: `.DS_Store`
+MIT License. See [`LICENSE`](LICENSE).
