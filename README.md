@@ -1,112 +1,108 @@
-# Orthogonal (b)KL Sequence Selection
+# dsRNA-brick
 
-## Big Picture Pipeline
+This repository provides an end-to-end workflow for dsRNA-brick design:
 
-For `N` (default `9`), the workflow has 4 steps:
+1. Build an orthogonal KL sequence pool.
+2. Build/select lattice structures in 2D or 3D GUI.
+3. Generate tile sequences for downstream design workflows.
 
-1. Generate candidate RNA pool
-   - Output: `RNA_Pool_Nnt.txt`
+## Repository Modules
 
-2. Filter candidates and build conflict graph
-   - Outputs: `FilteredPool_Nnt.txt`, `ConflictGraph_Nnt.txt`
+- `Orthogonal_sequence_selection/`
+  - KL candidate generation, conflict-graph construction, and independent-set selection.
+  - Entry scripts:
+    - `generate_pool_nnt.py`
+    - `build_rna_conflict_graphV2.py`
+    - `select_from_conflict_graph.py`
 
-3. Select a large non-conflicting set (independent set)
-   - Output: `SelectedPool_from_graph.txt`
+- `build_dsRNA_bricks_2D/`
+  - 2D lattice GUI (`X`, `Y`) with synchronized model/XY map tile selection.
+  - Integrated sequence-generation pipeline.
 
-4. Generate full complementary pairs and validate format
-   - Output: `Orthaganal_RNA_Pool_Nnt.txt`
+- `build_dsRNA_bricks_3D/`
+  - 3D lattice GUI (`X`, `Y`, `Z`) with synchronized 3D/layered-map tile selection.
+  - Integrated sequence-generation pipeline.
 
-All files are written into a new folder:
+## Quick Start
 
-- `Orthaganal_RNA_Pool_Nnt`
+### 1. Download the code
 
-(Here `N` is replaced by your `--num-nt` value, e.g. `9`.)
-
----
-
-## How To Run
-
-```bash
-python run_orthogonal_selection.py -N 9
-```
-
-Example output folder:
-
-- `Orthaganal_RNA_Pool_9nt/`
-
-Example files inside:
-
-- `RNA_Pool_9nt.txt`
-- `FilteredPool_9nt.txt`
-- `ConflictGraph_9nt.txt`
-- `SelectedPool_from_graph.txt`
-- `Orthaganal_RNA_Pool_9nt.txt`
-
----
-
-## Supported Options
-
-- `-N`, `--num-nt`
-  - Meaning: sequence length `N`.
-  - Default: `9`.
-
-- `-R`, `--rounds`
-  - Meaning: number of randomized attempts in step 3.
-  - Default: `1000`.
-
-- `-G`, `--guide`
-  - Meaning: guide sequence used in filtering (step 2).
-  - Default: `CACGAAGUCAAUAC`.
-  - Multiple guides are allowed by repeating `-G`.
-
-- `-O`, `--output`
-  - Meaning: filename of step-4 final output.
-  - Default: `Orthaganal_RNA_Pool_Nnt.txt`.
-
-- `-U`, `--User`
-  - Meaning: show built-in usage instructions.
-
----
-
-## Command Examples
-
-Use defaults:
+Option A (Git):
 
 ```bash
-python run_orthogonal_selection.py
+git clone https://github.com/Liangxiao-Chen/dsRNA-brick.git dsRNA-brick
+cd dsRNA-brick
 ```
 
-Set length and rounds:
+Option B (ZIP):
+
+1. Download ZIP from GitHub.
+2. Unzip it.
+3. Open terminal in the unzipped `dsRNA-brick` folder.
+
+### 2. Set up Python environment
 
 ```bash
-python run_orthogonal_selection.py -N 9 -R 2000
+conda create -n dsrna python=3.12 -y
+conda activate dsrna
+pip install "pyside6==6.9.*" numpy pyvista pyvistaqt vtk
 ```
 
-Use multiple guides:
+Install/configure NUPACK separately using official documentation:
+
+- [https://docs.nupack.org/](https://docs.nupack.org/)
+
+### 3. Run orthogonal sequence selection
 
 ```bash
-python run_orthogonal_selection.py -N 9 -G CACGAAGUCAAUAC -G GGGAAAUUU
+cd Orthogonal_sequence_selection
+python generate_pool_nnt.py 9
+python build_rna_conflict_graphV2.py --num-nt 9 --input RNAPool_9nt.txt
+python select_from_conflict_graph.py \
+  --seq-file FilteredPool_9nt_out.txt \
+  --graph-file ConflictGraph_9nt_edges_out.txt \
+  --rounds 1000
 ```
 
-Set custom final output filename:
+Main outputs:
+
+- `RNAPool_9nt.txt`
+- `FilteredPool_9nt_out.txt`
+- `ConflictGraph_9nt_edges_out.txt`
+- `SelectedPool_from_graph_out.txt`
+
+### 4. Run the 2D GUI
 
 ```bash
-python run_orthogonal_selection.py -N 9 -O My_Final_Pool.txt
+cd ../build_dsRNA_bricks_2D
+python build_dsRNA_Bricks_2D.py
 ```
 
-Show help/instructions:
+### 5. Run the 3D GUI
 
 ```bash
-python run_orthogonal_selection.py -U
+cd ../build_dsRNA_bricks_3D
+python build_dsRNA_Bricks_3D.py
 ```
 
----
 
-## Folder Layout
+## Module Documentation
 
-- `run_orthogonal_selection.py`: one-command pipeline runner.
-- `functions/generate_pool_nnt.py`: step 1 implementation.
-- `functions/build_rna_conflict_graphV2.py`: step 2 implementation.
-- `functions/select_from_conflict_graph.py`: step 3 implementation.
-- `functions/pool_rna_complement.py`: step 4 implementation.
-- `Demo_9nt/`: reference demo outputs.
+- Orthogonal selection: [`Orthogonal_sequence_selection/README.md`](Orthogonal_sequence_selection/README.md)
+- 2D GUI: [`build_dsRNA_bricks_2D/README.md`](build_dsRNA_bricks_2D/README.md)
+- 3D GUI: [`build_dsRNA_bricks_3D/README.md`](build_dsRNA_bricks_3D/README.md)
+
+## Repository Structure
+
+```text
+dsRNA-brick/
+├── Orthogonal_sequence_selection/
+├── build_dsRNA_bricks_2D/
+├── build_dsRNA_bricks_3D/
+├── LICENSE
+└── README.md
+```
+
+## License
+
+MIT License. See [`LICENSE`](LICENSE).
