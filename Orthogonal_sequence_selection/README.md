@@ -100,6 +100,17 @@ python generate_pool_nnt.py 9
 
 If you don’t give `--output`, it will write to: `RNA_Pool_9nt.txt` (one sequence per line, all uppercase RNA).
 
+Example (first lines of `Orthogonal_RNA_Pool_9nt/RNA_Pool_9nt.txt`):
+
+```text
+CGGUAAGAA
+GCGUAAGAA
+CCGUAAGAA
+GGCUAAGAA
+CGCUAAGAA
+GCCUAAGAA
+```
+
 ### What it **means** by “4S and (N–4) W”
 
 - It works at two levels:
@@ -215,6 +226,28 @@ With defaults you get:
 - `FilteredPool_9nt.txt`
 - `ConflictGraph_9nt.txt`
 
+Example (first lines of `Orthogonal_RNA_Pool_9nt/FilteredPool_9nt.txt`):
+
+```text
+CGGUAAGAA
+GCGUAAGAA
+CCGUAAGAA
+GGCUAAGAA
+CGCUAAGAA
+GCCUAAGAA
+```
+
+Example (first lines of `Orthogonal_RNA_Pool_9nt/ConflictGraph_9nt.txt`):
+
+```text
+0	1
+0	2
+0	3
+0	4
+0	7
+0	8
+```
+
 ### Step 2a – read and pre‑filter
 
 1. **Read all sequences** (must have length `num_nt`).
@@ -319,6 +352,17 @@ index<TAB>sequence
 ```
 (the index matches the line number in `FilteredPool_9nt.txt`).
 
+Example (first lines of `Orthogonal_RNA_Pool_9nt/SelectedPool_from_graph.txt`):
+
+```text
+6845	CAUGAUUGC
+4186	CUCUAGUUC
+4552	CUACUGUUC
+2298	GUUACCUCA
+6032	UACGAUCUC
+2695	GCUACAUAG
+```
+
 Key arguments:
 
 - `--seq-file` : filtered sequences from Step 2
@@ -410,6 +454,17 @@ The script now produces two outputs:
    - `Orthogonal_RNA_Pool_9nt.txt`
 2. Orthogonality figure from pairwise NUPACK free energies:
    - `orthogonality_9nt_RNA_Pool.png`
+
+Example (first lines of `Orthogonal_RNA_Pool_9nt/Orthogonal_RNA_Pool_9nt.txt`):
+
+```text
+CAUGAUUGC	GUACUAACG
+CUCUAGUUC	GAGAUCAAG
+CUACUGUUC	GAUGACAAG
+GUUACCUCA	CAAUGGAGU
+UACGAUCUC	AUGCUAGAG
+GCUACAUAG	CGAUGUAUC
+```
 
 If NUPACK is unavailable, step 4 still writes the complement text output and prints a warning; the figure is skipped.
 
