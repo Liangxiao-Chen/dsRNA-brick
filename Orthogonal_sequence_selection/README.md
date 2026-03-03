@@ -466,6 +466,10 @@ UACGAUCUC	AUGCUAGAG
 GCUACAUAG	CGAUGUAUC
 ```
 
+Example figure (`orthogonality_9nt_RNA_Pool.png`):
+
+![Orthogonality 9nt RNA Pool](Orthogonal_RNA_Pool_9nt/orthogonality_9nt_RNA_Pool.png)
+
 If NUPACK is unavailable, step 4 still writes the complement text output and prints a warning; the figure is skipped.
 
 NUPACK settings used for the figure:
@@ -519,4 +523,4 @@ python run_orthogonal_selection.py -U
 - `functions/build_rna_conflict_graphV2.py`: step 2 implementation.
 - `functions/select_from_conflict_graph.py`: step 3 implementation.
 - `functions/pool_rna_complement.py`: step 4 implementation.
-- `Demo_9nt/`: reference demo outputs.
+- `Orthogonal_RNA_Pool_9nt/`: example output folder.
