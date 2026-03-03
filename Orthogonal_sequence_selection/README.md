@@ -72,59 +72,99 @@ Example files inside:
 
 ### Step 1: Generate candidate RNA pool
 
-This step enumerates candidate `N`-nt RNA sequences with the intended base-composition and local-structure constraints.
+Goal:
 
-Main logic:
+- Enumerate “good” `N`-nt RNA candidates with controlled GC/AU composition and sequence-quality constraints.
 
-- Uses strong/weak patterning (`S`: `G/C`, `W`: `A/U`) to control composition.
-- Applies sequence-quality filters (e.g., avoid problematic end patterns and long degenerate runs).
-- Removes obvious hairpin-prone/internal unstable patterns.
+Core idea:
 
-Final output of step 1:
+- Build candidates from strong/weak patterns:
+  - `S` (strong) = `G/C`
+  - `W` (weak) = `A/U`
+- For `N=9`, the generator uses exactly 4 `S` and 5 `W`.
+
+Major filters used in this step:
+
+- Avoid problematic S/W runs (e.g., long GC-only stretches).
+- Keep all four nucleotides represented (`A`, `U`, `C`, `G`).
+- Hairpin-risk exclusion near ends for `N >= 9`.
+- Exclude internal `UUU` / mirrored `AAA` patterns.
+- Additional end-quality checks and degenerate-run checks (`K/M/R/Y`).
+
+Final output:
 
 - `RNA_Pool_Nnt.txt`
 
+---
+
 ### Step 2: Filter pool and build conflict graph
 
-This step removes problematic candidates and then builds an undirected conflict graph.
+Goal:
 
-Main logic:
+- Remove sequences that are unsuitable for orthogonal KL use, then build a conflict graph capturing pairwise incompatibility.
 
-- Removes self-complementary (palindromic) sequences.
-- Removes sequences that strongly conflict with guide sequence(s) (`-G`).
-- Compares remaining sequences pairwise under Watson-Crick + GU wobble rules.
-- Adds a graph edge for pairs considered too complementary.
+Pre-filtering:
 
-Final outputs of step 2:
+- Remove self-complementary (palindromic) sequences.
+- Remove sequences that are too complementary to guide sequence(s) (`-G`), by scanning all contiguous `N`-mers of each guide.
+
+Conflict graph construction:
+
+- One node per remaining sequence.
+- Undirected edge = two sequences are too complementary under the script criteria.
+- Pairing model includes:
+  - Watson-Crick pairs (`A-U`, `U-A`, `G-C`, `C-G`)
+  - GU wobble (`G-U`, `U-G`)
+- Checks both direct and reverse-complement orientations.
+- Includes bulged-pair checks for longer sequences (`N >= 9`).
+
+Final outputs:
 
 - `FilteredPool_Nnt.txt`
 - `ConflictGraph_Nnt.txt`
 
+---
+
 ### Step 3: Select a large independent set
 
-This step selects a large non-conflicting subset from the conflict graph.
+Goal:
 
-Main logic:
+- Find a large subset of sequences with no conflicts between any pair.
 
-- Runs randomized greedy independent-set search for `-R` rounds.
-- Keeps the best result found across rounds.
-- Applies an additional optimization pass to try improving the selected set.
+Method:
 
-Final output of step 3:
+- Randomized greedy independent-set search for `-R` rounds.
+- Keep the largest set found across rounds.
+- Run an additional optimization pass:
+  - remove one seed element,
+  - regrow greedily,
+  - keep improvements.
+
+Interpretation:
+
+- The result is a large set of mutually non-conflicting candidates from the graph model.
+
+Final output:
 
 - `SelectedPool_from_graph.txt`
 
+---
+
 ### Step 4: Generate full complementary pool and validate format
 
-This step converts selected sequences into complementary pairs and writes the final pool file for downstream tile-design tools.
+Goal:
 
-Main logic:
+- Convert selected sequences into final KL-pool lines (`sequence` + full complement) and ensure downstream-compatible format.
+
+What this step does:
 
 - Reads selected entries from step 3.
-- Writes `sequence<TAB>complement_sequence` pairs.
-- Ensures final file format is compatible with downstream KL-pool input requirements.
+- Generates full complementary sequence for each selected sequence.
+- Writes tab-separated pair lines:
+  - `sequence<TAB>complement_sequence`
+- Validates output format for downstream tile-design pipelines (one pair per non-empty line).
 
-Final output of step 4:
+Final output:
 
 - `Orthaganal_RNA_Pool_Nnt.txt`
 
