@@ -232,6 +232,10 @@ def main() -> None:
     _replace_file(out_dir / step2_graph_tmp, out_dir / step2_graph_final)
     _replace_file(out_dir / step3_selected_tmp, out_dir / step3_selected_final)
     _replace_file(out_dir / step4_tmp, out_dir / step4_final)
+    figure_path = out_dir / step4_figure
+    if not figure_path.exists():
+        print("WARNING: No NUPACK. Orthogonality figure was not generated.", flush=True)
+
     print("\n=== Done ===", flush=True)
     print(f"Generated files in: {out_dir}", flush=True)
     print(f"- {step1_final}", flush=True)
@@ -239,7 +243,8 @@ def main() -> None:
     print(f"- {step2_graph_final}", flush=True)
     print(f"- {step3_selected_final}", flush=True)
     print(f"- {step4_final}", flush=True)
-    print(f"- {step4_figure}", flush=True)
+    if figure_path.exists():
+        print(f"- {step4_figure}", flush=True)
 
 
 if __name__ == "__main__":

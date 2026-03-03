@@ -155,10 +155,21 @@ def main() -> None:
     out_text.parent.mkdir(parents=True, exist_ok=True)
     write_complement_file(selected_seqs, out_text)
 
+    n_len = len(selected_seqs[0])
+    out_figure = (
+        Path(args.output_figure).resolve()
+        if args.output_figure
+        else input_path.with_name(f"orthogonality_{n_len}nt_RNA_Pool.png")
+    )
+    out_figure.parent.mkdir(parents=True, exist_ok=True)
+
     try:
         from nupack import Complex, Model, Strand, complex_analysis  # type: ignore[import-not-found]
     except Exception as exc:
-        raise RuntimeError(f"NUPACK import failed: {exc}") from exc
+        print(f"Text written: {out_text}")
+        print(f"WARNING: No NUPACK. Skipping orthogonality figure generation ({out_figure.name}).")
+        print(f"Detail: {exc}")
+        return
 
     import matplotlib
 
@@ -169,14 +180,6 @@ def main() -> None:
     seqs, on_target_pairs = build_energy_inputs(selected_seqs)
     if len(seqs) < 2:
         raise ValueError("Need at least 2 valid RNA sequences to compute pairwise energies.")
-
-    n_len = len(selected_seqs[0])
-    out_figure = (
-        Path(args.output_figure).resolve()
-        if args.output_figure
-        else input_path.with_name(f"orthogonality_{n_len}nt_RNA_Pool.png")
-    )
-    out_figure.parent.mkdir(parents=True, exist_ok=True)
 
     total_pairs = len(seqs) * (len(seqs) - 1) // 2
     max_pairs = args.max_pairs if args.max_pairs > 0 else total_pairs

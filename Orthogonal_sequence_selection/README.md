@@ -24,6 +24,18 @@ All files are written into a new folder:
 
 ---
 
+## Requirements
+
+- Python 3.9+.
+- Step 1–3: standard Python library only.
+- Step 4 figure (`orthogonality_Nnt_RNA_Pool.png`): requires `nupack` (and `matplotlib`, `numpy`).
+- If `nupack` is not installed, the pipeline still completes and still writes:
+  - `Orthogonal_RNA_Pool_Nnt.txt`
+  - all step 1–3 files
+  - plus a warning: `No NUPACK` (figure is skipped).
+
+---
+
 ## How To Run
 
 ```bash
@@ -398,6 +410,8 @@ The script now produces two outputs:
    - `Orthogonal_RNA_Pool_9nt.txt`
 2. Orthogonality figure from pairwise NUPACK free energies:
    - `orthogonality_9nt_RNA_Pool.png`
+
+If NUPACK is unavailable, step 4 still writes the complement text output and prints a warning; the figure is skipped.
 
 NUPACK settings used for the figure:
 - `Model(material='rna', celsius=37, sodium=0.1, magnesium=0.010)`
