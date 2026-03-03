@@ -4,13 +4,13 @@
 
 For N = 9 (our standard KL length), the pipeline is:
 
-1. `generate_pool_nnt.py` 
+1. `functions/generate_pool_nnt.py` 
    Generate a **raw** pool of “good” 9‑nt sequences with nice local properties
    → `RNAPool_9nt.txt`
-2. `build_rna_conflict_graphV2.py` 
+2. `functions/build_rna_conflict_graphV2.py` 
    Remove self‑complementary / guide‑complementary sequences and build a **conflict graph** that records which sequences are too complementary to each other
    → `FilteredPool_9nt_out.txt` + `ConflictGraph_9nt_edges_out.txt`
-3. `select_from_conflict_graph.py` 
+3. `functions/select_from_conflict_graph.py` 
    On that graph, find a **large independent set** (a big subset of sequences that **do not** conflict with each other)
    → final orthogonal set, e.g. `SelectedPool_from_graph_out.txt`
 
@@ -19,6 +19,45 @@ That final set can then be fed into the tile‑building scripts.
 Below I’ll walk through each script (how to run it and what it’s actually doing), then summarize the 9‑nt design criteria and the graph‑theory picture.
 
 
+
+---
+
+## One-command runner (new)
+
+If you prefer not to run separate scripts manually, use:
+
+```bash
+python run_orthogonal_selection.py -N 9
+```
+
+This executes all steps and creates a new folder:
+
+- `Orthaganal_RNA_Pool_9nt/`
+
+Output files inside that folder:
+
+- `RNA_Pool_9nt.txt`
+- `FilteredPool_9nt.txt`
+- `ConflictGraph_9nt.txt`
+- `SelectedPool_from_graph.txt`
+- `Orthaganal_RNA_Pool_9nt.txt`
+
+Supported options:
+
+```bash
+python run_orthogonal_selection.py \
+  -N 9 \
+  -R 1000 \
+  -G CACGAAGUCAAUAC \
+  -G GGGAAAUUU \
+  -O Orthaganal_RNA_Pool_9nt.txt
+```
+
+Show built-in usage instructions:
+
+```bash
+python run_orthogonal_selection.py -U
+```
 
 ---
 
@@ -32,7 +71,7 @@ From the project directory:
 
 
 ```
-python generate_pool_nnt.py 9
+python functions/generate_pool_nnt.py 9
 ```
 - **Positional argument**: `N` (here `9`)
 - **Optional**: `--output <filename>`
@@ -133,7 +172,7 @@ Basic usage with defaults:
 
 
 ```
-python build_rna_conflict_graphV2.py --num-nt 9
+python functions/build_rna_conflict_graphV2.py --num-nt 9
 ```
 - `--num-nt 9` tells it we are working with 9‑mers.
 - If you don’t give `--input`, it assumes: (the output of Step 1).
@@ -142,7 +181,7 @@ python build_rna_conflict_graphV2.py --num-nt 9
 
 
 ```
-python build_rna_conflict_graphV2.py \
+python functions/build_rna_conflict_graphV2.py \
 --num-nt 9 \
 --input RNAPool_9nt.txt \
 --guide CACGAAGUCAAUAC --guide GGGAAAUUU \
@@ -243,7 +282,7 @@ If you used the defaults in Step 2:
 
 
 ```
-python select_from_conflict_graph.py \
+python functions/select_from_conflict_graph.py \
 --seq-file   FilteredPool_9nt_out.txt \
 --graph-file ConflictGraph_9nt_edges_out.txt \
 --rounds 1000
