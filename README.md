@@ -53,8 +53,7 @@ Install/configure NUPACK separately using official documentation:
 
 Notes:
 
-- NUPACK is required for orthogonality energy plotting in orthogonal-selection step 4.
-- If NUPACK is not installed, the orthogonal pipeline still generates all text outputs and prints a warning; only the figure is skipped.
+- NUPACK is required for orthogonality energy plotting in orthogonal-selection step 4 and sequence design in 2D/3D structure.
 
 ### 3. Run orthogonal sequence selection
 
