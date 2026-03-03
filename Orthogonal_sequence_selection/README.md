@@ -14,11 +14,11 @@ For `N` (default `9`), the workflow has 4 steps:
    - Output: `SelectedPool_from_graph.txt`
 
 4. Generate full complementary pairs and orthogonality figure
-   - Outputs: `Orthaganal_RNA_Pool_Nnt.txt`, `orthoganality_Nnt_RNA_Pool.png`
+   - Outputs: `Orthogonal_RNA_Pool_Nnt.txt`, `orthogonality_Nnt_RNA_Pool.png`
 
 All files are written into a new folder:
 
-- `Orthaganal_RNA_Pool_Nnt`
+- `Orthogonal_RNA_Pool_Nnt`
 
 (Here `N` is replaced by your `--num-nt` value, e.g. `9`.)
 
@@ -32,7 +32,7 @@ python run_orthogonal_selection.py -N 9
 
 Example output folder:
 
-- `Orthaganal_RNA_Pool_9nt/`
+- `Orthogonal_RNA_Pool_9nt/`
 
 Example files inside:
 
@@ -40,8 +40,8 @@ Example files inside:
 - `FilteredPool_9nt.txt`
 - `ConflictGraph_9nt.txt`
 - `SelectedPool_from_graph.txt`
-- `Orthaganal_RNA_Pool_9nt.txt`
-- `orthoganality_9nt_RNA_Pool.png`
+- `Orthogonal_RNA_Pool_9nt.txt`
+- `orthogonality_9nt_RNA_Pool.png`
 
 ---
 
@@ -62,7 +62,7 @@ Example files inside:
 
 - `-O`, `--output`
   - Meaning: filename of step-4 text output.
-  - Default: `Orthaganal_RNA_Pool_Nnt.txt`.
+  - Default: `Orthogonal_RNA_Pool_Nnt.txt`.
 
 - `-U`, `--User`
   - Meaning: show built-in usage instructions.
@@ -395,9 +395,9 @@ python pool_rna_complement.py SelectedPool_from_graph.txt
 The script now produces two outputs:
 
 1. Complement text file (`*_complement.txt`), finalized by the one-command pipeline as:
-   - `Orthaganal_RNA_Pool_9nt.txt`
+   - `Orthogonal_RNA_Pool_9nt.txt`
 2. Orthogonality figure from pairwise NUPACK free energies:
-   - `orthoganality_9nt_RNA_Pool.png`
+   - `orthogonality_9nt_RNA_Pool.png`
 
 NUPACK settings used for the figure:
 - `Model(material='rna', celsius=37, sodium=0.1, magnesium=0.010)`
@@ -433,7 +433,7 @@ Set custom final output filename:
 python run_orthogonal_selection.py -N 9 -O My_Final_Pool.txt
 ```
 This changes only the step-4 text file name. The figure is still generated as:
-`orthoganality_9nt_RNA_Pool.png`.
+`orthogonality_9nt_RNA_Pool.png`.
 
 Show help/instructions:
 
