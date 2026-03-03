@@ -68,6 +68,68 @@ Example files inside:
 
 ---
 
+## Detailed Step Introduction
+
+### Step 1: Generate candidate RNA pool
+
+This step enumerates candidate `N`-nt RNA sequences with the intended base-composition and local-structure constraints.
+
+Main logic:
+
+- Uses strong/weak patterning (`S`: `G/C`, `W`: `A/U`) to control composition.
+- Applies sequence-quality filters (e.g., avoid problematic end patterns and long degenerate runs).
+- Removes obvious hairpin-prone/internal unstable patterns.
+
+Final output of step 1:
+
+- `RNA_Pool_Nnt.txt`
+
+### Step 2: Filter pool and build conflict graph
+
+This step removes problematic candidates and then builds an undirected conflict graph.
+
+Main logic:
+
+- Removes self-complementary (palindromic) sequences.
+- Removes sequences that strongly conflict with guide sequence(s) (`-G`).
+- Compares remaining sequences pairwise under Watson-Crick + GU wobble rules.
+- Adds a graph edge for pairs considered too complementary.
+
+Final outputs of step 2:
+
+- `FilteredPool_Nnt.txt`
+- `ConflictGraph_Nnt.txt`
+
+### Step 3: Select a large independent set
+
+This step selects a large non-conflicting subset from the conflict graph.
+
+Main logic:
+
+- Runs randomized greedy independent-set search for `-R` rounds.
+- Keeps the best result found across rounds.
+- Applies an additional optimization pass to try improving the selected set.
+
+Final output of step 3:
+
+- `SelectedPool_from_graph.txt`
+
+### Step 4: Generate full complementary pool and validate format
+
+This step converts selected sequences into complementary pairs and writes the final pool file for downstream tile-design tools.
+
+Main logic:
+
+- Reads selected entries from step 3.
+- Writes `sequence<TAB>complement_sequence` pairs.
+- Ensures final file format is compatible with downstream KL-pool input requirements.
+
+Final output of step 4:
+
+- `Orthaganal_RNA_Pool_Nnt.txt`
+
+---
+
 ## Command Examples
 
 Use defaults:
