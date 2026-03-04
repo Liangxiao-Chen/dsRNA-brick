@@ -37,6 +37,10 @@ def rna_complement(seq: str) -> str:
     return "".join(RNA_COMPLEMENT[base] for base in seq.upper())
 
 
+def rna_reverse_complement(seq: str) -> str:
+    return rna_complement(seq)[::-1]
+
+
 def _pair_key(a: str, b: str) -> tuple[str, str]:
     return (a, b) if a <= b else (b, a)
 
@@ -69,29 +73,38 @@ def load_selected_rows(input_file: Path) -> list[str]:
 def write_complement_file(seqs: list[str], output_path: Path) -> None:
     with output_path.open("w", encoding="utf-8") as fout:
         for seq in seqs:
-            comp = rna_complement(seq)
-            fout.write(f"{seq}\t{comp}\n")
+            rc = rna_reverse_complement(seq)
+            fout.write(f"{seq}\t{rc}\n")
 
 
-def build_energy_inputs(
-    selected_seqs: list[str],
-) -> tuple[list[str], set[tuple[str, str]]]:
+def build_energy_inputs_from_pool_file(
+    pool_file: Path,
+) -> tuple[list[str], set[tuple[str, str]], int]:
     seqs: list[str] = []
     seen: set[str] = set()
     on_target_pairs: set[tuple[str, str]] = set()
+    valid_rows = 0
 
-    for s1 in selected_seqs:
-        comp = rna_complement(s1)
-        # Keep consistent with prior validation behavior:
-        # reverse the second strand after loading.
-        s2 = comp[::-1]
-        on_target_pairs.add(_pair_key(s1, s2))
-        for s in (s1, s2):
-            if s not in seen:
-                seen.add(s)
-                seqs.append(s)
+    with pool_file.open("r", encoding="utf-8") as fh:
+        for raw in fh:
+            line = raw.strip()
+            if not line or line.startswith("#"):
+                continue
+            cols = line.split()
+            if len(cols) < 2:
+                continue
+            s1 = cols[0].strip().upper()
+            s2 = cols[1].strip().upper()
+            if not (_is_rna(s1) and _is_rna(s2)):
+                continue
+            valid_rows += 1
+            on_target_pairs.add(_pair_key(s1, s2))
+            for s in (s1, s2):
+                if s not in seen:
+                    seen.add(s)
+                    seqs.append(s)
 
-    return seqs, on_target_pairs
+    return seqs, on_target_pairs, valid_rows
 
 
 def iter_pair_chunks(n: int, chunk_size: int) -> Iterable[list[tuple[int, int]]]:
@@ -177,7 +190,7 @@ def main() -> None:
     import matplotlib.pyplot as plt
     import numpy as np
 
-    seqs, on_target_pairs = build_energy_inputs(selected_seqs)
+    seqs, on_target_pairs, valid_rows = build_energy_inputs_from_pool_file(out_text)
     if len(seqs) < 2:
         raise ValueError("Need at least 2 valid RNA sequences to compute pairwise energies.")
 
@@ -187,6 +200,7 @@ def main() -> None:
 
     print(f"Input file: {input_path}")
     print(f"Selected rows: {len(selected_seqs)}")
+    print(f"Rows used from generated pool file: {valid_rows}")
     print(f"Loaded sequences for pair scan: {len(seqs)}")
     print(f"Unique on-target pairs: {len(on_target_pairs)}")
     print(f"Planned pair evaluations: {max_pairs}/{total_pairs}")

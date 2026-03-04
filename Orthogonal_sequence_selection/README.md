@@ -446,7 +446,8 @@ To get a compatible pool file from the graph‑selected list, we run:
 python pool_rna_complement.py SelectedPool_from_graph.txt
 ```
 - **Input format:** `index<TAB>sequence`
-- **Text output format:** `sequence<TAB>complement_sequence`
+- **Text output format:** `sequence<TAB>reverse_complement_sequence`
+  (the second column is reverse-complemented before writing)
 
 The script now produces two outputs:
 
